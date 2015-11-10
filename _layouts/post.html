@@ -1,0 +1,124 @@
+---
+layout: default
+---
+
+<!-- Content -->
+<div class="content clearfix reveal-side-navigation">
+
+	<!-- Parallax Section -->
+	<div class="section-block featured-media">
+		<div class="parallax fixed-height" data-src="{{ page.image }}" data-retina>
+			<div class="tmp-content">
+				<div class="tmp-content-inner left">
+					<div class="row">
+						<div class="column width-12">
+							<h1 class="horizon letter-spaced weight-bold color-white no-margin-bottom inline" 
+								data-animate-in="opacity:0;scale:1.5;duration:400ms;easing:swing;">
+								<span style="text-transform: uppercase;">{{ page.title }}</span>
+							</h1>
+							<div class="clear"></div>
+							<span class="horizon text-medium letter-spaced weight-light color-white no-margin-bottom" 
+								data-animate-in="opacity:0;transY:30px;duration:400ms;delay:200ms;easing:swing;">
+								{% assign author = site.data.authors[page.author] %}
+								{% if author %}
+				                <span style="text-transform: uppercase;">By {{ author.name }} on {{ page.date | date: "%b %-d, %Y"}}</span>
+				            {% endif %}
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Parallax Section End -->
+
+	<div class="section-block row">
+
+		<!-- Content Inner -->
+		<div class="column width-9 content-inner blog-single-post">
+			<article class="post">
+
+				<!-- Post Content -->
+				<div class="post-content">
+					<!-- <div class="post-info">
+						<span class="post-date">{{ page.date | date: "%b %-d, %Y"}}</span>/ <span class="post-autor"><a href="#"> By {{ author.name }}</a></span>
+					</div> -->
+					{% capture url %}{{ site.url }}{{ page.url }}{% endcapture %}
+		            {% if page.shortUrl != null %}
+		                {% assign url = page.shortUrl %}
+		            {% endif %}
+					{% include social-share.html%}
+					{{ content }}
+				</div>
+			</article>
+
+			<!-- Post Author -->
+			{% if author %}
+			<div class="post-author">
+				<article class="author-bio">
+					<div class="author-avatar">
+						<img src="{{ author.gravatar }}" alt="Avatar"/>
+					</div>
+					<div class="author-content">
+						<h5 class="name">By {{ author.name }}</h5>
+						<p>{{ author.details }}</p>
+					</div>
+				</article>
+			</div>
+			{% endif %}
+			
+		</div>
+
+		<!-- Sidebar -->
+		<aside class="column width-3 sidebar">
+			<div class="sidebar-inner">
+				<div class="widget">
+					<h3 class="widget-title">Categories</h3>
+					<ul>
+						<li><a href="#">Category 1</a></li>
+						<li><a href="#">Category 2</a></li>
+						<li><a href="#">Category 3</a></li>
+						<li><a href="#">Category 4</a></li>
+						<li><a href="#">Category 5</a></li>
+						<li><a href="#">Category 6</a></li>
+					</ul>
+				</div>
+				<div class="widget">
+					<h3 class="widget-title">Tags</h3>
+					<ul>
+						<li>
+							<a href="#">Tag 1</a>,
+							<a href="#">Tag 2</a>,
+							<a href="#">Tag 3</a>,
+							<a href="#">Tag 4</a>,
+							<a href="#">Tag 5</a>,
+							<a href="#">Tag 6</a>
+						</li>
+					</ul>
+				</div>
+				<div class="widget">
+					<h3 class="widget-title">Recent Posts</h3>
+					<ul>
+						<li><a href="#">Post Title 1</a></li>
+						<li><a href="#">Another Post Title 2</a></li>
+						<li><a href="#">Post Title 3</a></li>
+						<li><a href="#">Another Post Title 4</a></li>
+						<li><a href="#">Post 5</a></li>
+						<li><a href="#">Another Post Title 6</a></li>
+					</ul>
+				</div>
+			</div>
+		</aside>
+	</div>
+</div>
+<script type="text/javascript">
+  $(function(e) {
+      $(".tweet-quote").click(function() {
+          var tweetText = encodeURI('"' + $(this).text() + '"');
+          var href = "https://twitter.com/intent/tweet?text=" + tweetText +
+              "&url={{ page.shortUrl }}&via=ProjectBeegit";
+
+          window.open(href, 'child', 'scrollbars,width=650,height=500');
+      });
+  });
+</script>
