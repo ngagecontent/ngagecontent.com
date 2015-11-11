@@ -18,7 +18,7 @@ I can tell you about a serene wilderness retreat tucked into the foothills of Oh
 
 Or you can simply admire the above image, letting your own mind paint a description that's as vivid as it is original.
 
-Like a waterfall's gush, the application of the "picture's worth a thousand words" mantra is seemingly endless when it comes to your business blog. A [visually-stimulating content marketing campaign](http://blog.beegit.com/content_strategy/2015/09/17/7-best-practices-for-your-business-blog/) captivates your target audience, caters to their strongest sensory receptors, incites emotion and prompts buyer action in a manner that's unparalleled by standalone text. 
+Like a waterfall's gush, the application of the "picture's worth a thousand words" mantra is seemingly endless when it comes to your business blog. A [visually-stimulating content marketing campaign](/2015/09/17/7-best-practices-for-your-business-blog/) captivates your target audience, caters to their strongest sensory receptors, incites emotion and prompts buyer action in a manner that's unparalleled by standalone text. 
 
 When you embark upon consuming a piece of text that's void of images, the task of reading feels overwhelming. The authoring content marketer has done you a disservice, and you're likely inclined to gloss over the text or skip reading altogether.
 

@@ -23,7 +23,7 @@ You, as a content marketer, may not be blessed with the voice of Lennon nor the 
 Continuously crafting fresh content proves difficult, expensive and time-consuming. <a href="http://resources.kapost.com/the-cost-of-marketing-inefficiency.html?rs=Resources" target="_blank">Inefficiency in content production results in an estimated $958 million each year in excessive spend</a> for mid-to-large B2B U.S. companies.
 
 
-Many content marketers [combat perceived inefficiencies](http://blog.beegit.com/content_strategy/2015/10/07/convince-your-boss-blog/) by reusing existing content. There's simply no need to always be original. Research indicates that <a href="http://lookbookhq.com/content/wp-content/uploads/Eloqua-Content-Marketing-Survey-2014.pdf" target="_blank">nearly 60 percent of content producers repurpose their work between two and five times</a>. 
+Many content marketers [combat perceived inefficiencies](/2015/10/07/convince-your-boss-blog/) by reusing existing content. There's simply no need to always be original. Research indicates that <a href="http://lookbookhq.com/content/wp-content/uploads/Eloqua-Content-Marketing-Survey-2014.pdf" target="_blank">nearly 60 percent of content producers repurpose their work between two and five times</a>. 
 
 By repurposing your best content (notice I didn't say "all content" or "just any content") after it's originally published, you can: 
 
@@ -40,7 +40,7 @@ Like concocting five turkey recipes from Thanksgiving leftovers, repurposing ena
 Seek a lifetime warranty with no expiration date for your content. While some pieces may be timely and have limited usage, strive to make most of your content evergreen -- continually relevant and fresh for readers. If you're a retailer that holds an annual holiday sale, you want to avoid putting anything specific to a particular year on your sale signage so it can be reused each time the holiday season rolls around. Applying this same technique to your content affords you maximum usability and flexibility.
 
 ### 2. Craft Email Newsletters
-Once you've [published a blog post](http://blog.beegit.com/content_strategy/2015/09/17/7-best-practices-for-your-business-blog/), it's time to start maximizing that content's exposure. Think "Often imitated but never duplicated." Repurpose your post by converting it into a topic overview within an email newsletter that can be sent to your subscribers, directing recipients by hyperlink to the full post. By establishing a weekly newsletter schedule, you can ensure your top blog posts can be revamped and easily repurposed on a regular basis.
+Once you've [published a blog post](/2015/09/17/7-best-practices-for-your-business-blog/), it's time to start maximizing that content's exposure. Think "Often imitated but never duplicated." Repurpose your post by converting it into a topic overview within an email newsletter that can be sent to your subscribers, directing recipients by hyperlink to the full post. By establishing a weekly newsletter schedule, you can ensure your top blog posts can be revamped and easily repurposed on a regular basis.
 
 ### 3. Compile Your Own "Greatest Hits" Collection
 With Google Analytics and other Web metrics, you can determine which of your content pieces performed best during the last several months. Using this information, develop a "best of" blog post highlighting these top performers and linking back to each. This strategy enables you to extend the buzz surrounding your most noteworthy content achievements with a minimal time investment.

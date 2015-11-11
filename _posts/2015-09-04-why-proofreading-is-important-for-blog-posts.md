@@ -23,12 +23,12 @@ So why exactly is proofreading so essential, especially within the context of a 
 ![shareable.png](https://ucarecdn.com/89c98f14-33b2-4160-8370-0ce3ac1cabfc/)
 
 ### Credibility: Our (Written) Word is Our Bond
-By their very nature, blogs tend to be informal and conversational. Their non-intimidating tone is part of their appeal. But in order to develop a following and consistent readership, a [blogging content marketing team](http://blog.beegit.com/content_strategy/2015/04/01/how-to-build-and-manage-distributed-writing-team/) must establish credibility with its audience. 
+By their very nature, blogs tend to be informal and conversational. Their non-intimidating tone is part of their appeal. But in order to develop a following and consistent readership, a [blogging content marketing team](/2015/04/01/how-to-build-and-manage-distributed-writing-team/) must establish credibility with its audience. 
 
 You may be the foremost expert on the topic of Victorian architecture...but will your syntax support this notion? While some niche readers may be able to overlook minor flaws, a sizable portion of your audience will be comprised of people who don't know you're the expert and multiple mistakes will set off their radar. 
 
 ### Penny in a World Full of Dollars
-Our [digital society](http://blog.beegit.com/content_strategy/2015/03/17/why-you-should-embrace-agile-content/) has become inundated with content. When one piece does not produce immediate satisfaction, a reader can simply divert his or her attention to the next offering, and the one after that. There's no shortage of content marketers screaming "READ ME" in hopes of enticing their digitally-captive audience.
+Our [digital society](/2015/03/17/why-you-should-embrace-agile-content/) has become inundated with content. When one piece does not produce immediate satisfaction, a reader can simply divert his or her attention to the next offering, and the one after that. There's no shortage of content marketers screaming "READ ME" in hopes of enticing their digitally-captive audience.
 
 Once your content has been perceived as devalued, it's likely your ongoing content efforts will be passed by in favor of the next blog option. It's supply and demand in a world where inflation mires the content currency. Why let grammatical inaccuracies be the demise of your blog readership? 
 
@@ -49,6 +49,6 @@ Many writers and editors mistakenly assume proofreading insinuates simply checki
 
 When done properly, proofreading enables a content marketer to thoroughly evaluate not only the style, but also the actual content of a blog entry. Was my message conveyed effectively? Is my information substantive and insightful? Does my organizational structure lend itself to seamless reading by a blog guest?
 
-[Producing readable blog content can be an arduous task for even the most skilled content marketer](http://blog.beegit.com/content_strategy/2015/03/12/how-to-audit-content/). But don't let yourself fall victim to coasting across the finish line. Read out loud, highlight a printout, step away and return or [ask a friend](http://blog.beegit.com/platform/2014/10/27/using-beegit-to-build-better-content/) -- do whatever it takes to ensure your blog is properly proofread prior to publication.
+[Producing readable blog content can be an arduous task for even the most skilled content marketer](/2015/03/12/how-to-audit-content/). But don't let yourself fall victim to coasting across the finish line. Read out loud, highlight a printout, step away and return or [ask a friend](http://blog.beegit.com/platform/2014/10/27/using-beegit-to-build-better-content/) -- do whatever it takes to ensure your blog is properly proofread prior to publication.
 
 Your editorial conscience -- and loyal readership -- will thank you.

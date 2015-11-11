@@ -4,7 +4,7 @@ layout: post
 title: 8 Deep thoughts from Content Marketing World 2015 
 date:   2015-09-15 12:00:00
 teaser: Here are eight unique and interesting thoughts from Content Marketing World 2015
-image: https://s3.amazonaws.com/beegit-images/blog/headers/cmworld-2015.jpg
+image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/cmworld-2015.jpg
 author: mike_cottrill
 comments: true
 shortUrl: http://buff.ly/1OsYe4n
@@ -18,7 +18,7 @@ The event covered its usual big hits with lots of orange candy, plenty of networ
 
 <span><a class="tweet-quote">To create content step away from hare brain activities to a place where you can think creatively</a></span>
 
-Last year I did a post on [seven deep thoughts collected at CMW 2014](http://blog.beegit.com/content_strategy/2014/09/15/thoughts-from-content-marketing-world/). This year I wanted to do one better. I attended the summit and focused on sessions that could help build relevant storytelling into a content strategy. From those sessions, here are eight unique and interesting thoughts from Content Marketing World 2015. Because the speakers I'm referencing are all experts in their niche, I try to quote them directly or link to their presentations/social media wherever possible. 
+Last year I did a post on [seven deep thoughts collected at CMW 2014](/2014/09/15/thoughts-from-content-marketing-world/). This year I wanted to do one better. I attended the summit and focused on sessions that could help build relevant storytelling into a content strategy. From those sessions, here are eight unique and interesting thoughts from Content Marketing World 2015. Because the speakers I'm referencing are all experts in their niche, I try to quote them directly or link to their presentations/social media wherever possible. 
 
 ![8-deep-thoughts-shareable.jpg](https://ucarecdn.com/41b130e2-9015-43d3-9bef-16ae2c13c425/)
 
@@ -36,7 +36,7 @@ This was murky waters to cover in a keynote, but the takeaway of this complex to
 
 Rand is many things, but first and foremost he is a leader on where the content machine is heading -- and this year he shared some mind-blowing thoughts on how most everything you know about traditional SEO is, well, junk. 
 
-His full presentations are available all over the web. Like [here](http://www.slideshare.net/randfish/onsite-seo-in-2015-an-elegant-weapon-for-a-more-civilized-marketer) and [here](bit.ly/10Xcontent), so I'll focus on one thing he discussed. Google has built artificial intelligence for its search that is getting smarter all the time, and its focus is query success. What is query success? It is the ability of content on a page to resolve the question or issue of the searcher. 
+His full presentations are available all over the web. Like [here](http://www.slideshare.net/randfish/onsite-seo-in-2015-an-elegant-weapon-for-a-more-civilized-marketer) and [here](http://bit.ly/10Xcontent), so I'll focus on one thing he discussed. Google has built artificial intelligence for its search that is getting smarter all the time, and its focus is query success. What is query success? It is the ability of content on a page to resolve the question or issue of the searcher. 
 
 Here's a good example from Rand. Say you're thinking of watching that one movie that makes fun of Star Trek. You know the one, it has the Tim Allen in it. Do you search Google for a bunch of longtail keywords around the movie? Probably not. If you're like most searchers, you ask Google a question: What's that movie that makes fun of Star Trek? 
 
@@ -56,6 +56,7 @@ First, a direct quote from the always-quotable Ann that caught my attention:
 >Engaging content is more about brains than budget. 
 
 To create this content, Ann shared that you must focus on making content: 
+
 * Bigger 
 * Braver 
 * **Bolder** 
@@ -72,7 +73,7 @@ As Joel put it, brands that do well don't see content marketing as advertising. 
 ### 6. Focus on Ridding Yourself of ROTting Content
 **Learned from Anna Hrach <a href="http://twitter.com/annabananahrach" target="_blank">@annabananahrach</a>**
 
-Look: There's nothing fun about a [content audit](http://blog.beegit.com/content_strategy/2015/03/12/how-to-audit-content/). But it is a necessary practice for content marketers for many reasons. 
+Look: There's nothing fun about a [content audit](/2015/03/12/how-to-audit-content/). But it is a necessary practice for content marketers for many reasons. 
 
 One of the primary reasons is that if you have content, especially content that's been around for a while, you likely have ROT content. That is content that is redundant, outdated and trivial. It’s content that makes you look bad and doesn’t serve the balance between achieving business goals and helping the user. Simply put, it's doing more harm than good. Anna's recommendation? Take the pain of a regular audit to review your content and clean it up. And, hey, there's an upside. You may find a great piece of content pushed way down in your archives that, with a little clean up, can really perform well. 
 

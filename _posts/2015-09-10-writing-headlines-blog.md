@@ -5,7 +5,7 @@ title: Insert clever title here – the art of writing click-worthy blog headlin
 keyword: writing engaging blog headlines
 date: 2015-09-10 12:00:00
 teaser: A handful of headline writers throughout history have had it easy. A historical event, triumphant or tragic, rocks our world on their editorial watch and the ensuing...
-image: https://s3.amazonaws.com/beegit-images/blog/headers/click-worthy-headlines.jpg
+image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/click-worthy-headlines.jpg
 author: matt_bixenstine
 comments: true
 redirect_from: "/content_strategy/2015/09/11/writing-headlines-blog/"
@@ -20,7 +20,7 @@ A handful of headline writers throughout history have had it easy. A historical 
 
 The rest of us, though, must master the art of writing attention-garnering headlines. And while the content medium has changed since Neil Armstrong emerged from Apollo 11 onto a cratered surface in 1969 -- newspaper mastheads have been replaced in part by blog homepages, circulation replaced by clicks -- the task of headline writing remains monumental.
 
-Just how can [modern-day content marketers](http://blog.beegit.com/content_strategy/2015/04/01/how-to-build-and-manage-distributed-writing-team/) write blog headlines readers will be enticed to click on?
+Just how can [modern-day content marketers](/2015/04/01/how-to-build-and-manage-distributed-writing-team/) write blog headlines readers will be enticed to click on?
 
 ![shareable.png](https://ucarecdn.com/f7f90ad3-9136-44f1-8269-e2ffebba726b/)
 
@@ -45,7 +45,7 @@ All too often, writers labor over a blog post for days...then mistakenly just pl
 
 Back in our journalistic heyday, space dictated headlines. A copy editor was limited to the available space, regardless of what the ideal headline might be. The city of Cleveland was named for expedition leader Moses Cleaveland, but the first "a" was dropped from the name after an early newspaper was plagued by space constraints.
 
-But even in today's [infinite digital universe](http://blog.beegit.com/content_strategy/2015/03/17/why-you-should-embrace-agile-content/), punchy, concise blog headlines work best, attracting more attention as well as proving more Tweetable and SEO-friendly. Get to the point quickly or your readership won't wait around to learn your (probably insightful) point. A good rule-of-thumb is to keep your headline 10 words or less (yes, this hypocritical post has an 11-word headline). 
+But even in today's [infinite digital universe](/2015/03/17/why-you-should-embrace-agile-content/), punchy, concise blog headlines work best, attracting more attention as well as proving more Tweetable and SEO-friendly. Get to the point quickly or your readership won't wait around to learn your (probably insightful) point. A good rule-of-thumb is to keep your headline 10 words or less (yes, this hypocritical post has an 11-word headline). 
 
 ### Intrigue Your Audience
 
@@ -84,6 +84,6 @@ Go back and read the last headline contained within the first paragraph: *Dewey 
 
 <span><a class="tweet-quote">Embarking on a blog-inspired content mission? Start by crafting a powerful headline.</a></span>
 
-[A misleading or inaccurate headline equals the demise of your readership](http://blog.beegit.com/content_strategy/2015/09/04/why-proofreading-is-important-for-blog-posts/), as ever-finicky blog readers disappointed in what they clicked on are unlikely to return. However powerful or effective, your headline need to reflect the body of your work appropriately. Otherwise, it's the equivalent of spam.
+[A misleading or inaccurate headline equals the demise of your readership](/2015/09/04/why-proofreading-is-important-for-blog-posts/), as ever-finicky blog readers disappointed in what they clicked on are unlikely to return. However powerful or effective, your headline need to reflect the body of your work appropriately. Otherwise, it's the equivalent of spam.
 
 The next time you embark on a blog-inspired content mission, start from the beginning and craft a powerful headline.  You just might be pleasantly surprised with the results. One small step for your blog, one giant leap in click-worthy content.

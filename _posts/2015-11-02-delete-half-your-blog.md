@@ -35,7 +35,7 @@ Here are five instances when deleting half of your blog is smart:
 
 ### 1. Your Blog Post is Inaccurate or Misleading
 
-Not all content stands the test of time. Whether or not we're willing to admit it, we all [make occasional mistakes](http://blog.beegit.com/content_strategy/2015/09/04/why-proofreading-is-important-for-blog-posts/) with our proclamations and predictions. And when my wrongness is floating around the Web in a publicly-documented fashion, then it's probably time for me to take action by deleting any misinformation-spewing blog posts (and correcting my mistakes).
+Not all content stands the test of time. Whether or not we're willing to admit it, we all [make occasional mistakes](/2015/09/04/why-proofreading-is-important-for-blog-posts/) with our proclamations and predictions. And when my wrongness is floating around the Web in a publicly-documented fashion, then it's probably time for me to take action by deleting any misinformation-spewing blog posts (and correcting my mistakes).
 
 It's entirely possible the future of content marketing will provide evidence that posts *should not* be removed from a blogger's archive. If and when this occurs, I will need to remove or rewrite this post (though all other blog posts will need to remain, based on this realization).
 
@@ -43,7 +43,7 @@ It's entirely possible the future of content marketing will provide evidence tha
 
 ### 2. Your Outdated Blog Post Can be Recycled
 
-A fresh start at tackling a troublesome topic can do wonders for your blog. Perhaps a previous blog post left you dissatisfied, or perhaps new information has come to light since your old post was published. No matter -- don't hesitate to [repurpose that post into an updated, SEO-friendly blog entry](http://blog.beegit.com/content_strategy/2015/10/14/repurpose-content-like-a-pro/).
+A fresh start at tackling a troublesome topic can do wonders for your blog. Perhaps a previous blog post left you dissatisfied, or perhaps new information has come to light since your old post was published. No matter -- don't hesitate to [repurpose that post into an updated, SEO-friendly blog entry](/2015/10/14/repurpose-content-like-a-pro/).
 
 Your industry expertise has grown considerably over the years and there's no reason you shouldn't take a stab at refurbishing an old blog post that now rings hollow. But remember: To maintain a forest's canopy, a new tree must be planted whenever a dead tree gets chopped down.
 
@@ -63,6 +63,6 @@ However, when your blog post's performance measurement falls far short, the moti
 
 Modern SEO best practices are only a few years old, and your B2B blog may predate these standards significantly. If so, chances are your blog contains content that's too thin and too dependent on external links, and some cleanup may be in order.
 
-While you may wish to preserve your oldest posts for the purpose of showcasing your blog's origin and longevity, consider trimming subsequent posts that fail to comply with modern SEO requirements. Even if half is too much, <a href="http://www.koozai.com/blog/search-marketing/deleted-900-blog-posts-happened-next" target="_blank">digital agency Koozai]</a> experienced search engine success with erasing 30 percent of its blog content, amounting to 900 posts.
+While you may wish to preserve your oldest posts for the purpose of showcasing your blog's origin and longevity, consider trimming subsequent posts that fail to comply with modern SEO requirements. Even if half is too much, <a href="http://www.koozai.com/blog/search-marketing/deleted-900-blog-posts-happened-next" target="_blank">digital agency Koozai</a> experienced search engine success with erasing 30 percent of its blog content, amounting to 900 posts.
 
 It's never easy to let go of the past. But by convincing yourself to remove the weakest posts from your blog, you can improve the overall quality of your content offering, more effectively engage your audience and build better online results. Everybody wins...except your pesky pride.

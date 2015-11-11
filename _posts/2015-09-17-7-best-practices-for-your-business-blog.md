@@ -50,7 +50,7 @@ Other elements of a blog style guide include:
 
 
 ### 3. Write a Click-Worthy Blog Headline
-It may seem like a simple phrase preceding your blog post, but [your headline should hardly be an afterthought](http://blog.beegit.com/content_strategy/2015/09/10/writing-headlines-blog/). In fact, some experts recommend devoting nearly half your blogging time to crafting a perfect headline.
+It may seem like a simple phrase preceding your blog post, but [your headline should hardly be an afterthought](/2015/09/10/writing-headlines-blog/). In fact, some experts recommend devoting nearly half your blogging time to crafting a perfect headline.
 
 A proper blog first impression should be lasting...or at least entice your readers' subconscious to shout "click away" rather than mumble "next please" as they wade through our increasingly content-crowded digital world.
 
@@ -65,7 +65,7 @@ Additional headline tips to consider:
 ### 4. Offer an Interesting Story or Point
 In the comedy classic "Planes, Trains and Automobiles," Steve Martin ends his diatribe to John Candy with the following: "And by the way, when you're telling these little stories? Here's a good idea -- have a POINT. It makes it SO much more interesting for the listener!"
 
-Interweave your topic-related content with stories or anecdotes that will [be interesting and relevant to your readership](http://blog.beegit.com/content_strategy/2015/09/11/creating-content-that-matters/). Spark a sense of familiarity in your readers by giving them something to which they can relate or find useful. If you produce something only your mother would enjoy reading, perhaps it's time for a rewrite. 
+Interweave your topic-related content with stories or anecdotes that will [be interesting and relevant to your readership](/2015/09/11/creating-content-that-matters/). Spark a sense of familiarity in your readers by giving them something to which they can relate or find useful. If you produce something only your mother would enjoy reading, perhaps it's time for a rewrite. 
 
 ### 5. Connect Your Blog to Your Overall Sales Funnel
 Ultimately, the end goal of your blog is to gain customers and drive sales. That objective can get lost if you become too immersed in storytelling.
@@ -80,7 +80,7 @@ A blog post without an accompanying visual element is like a vehicle lacking a s
 Insist upon having an image included with every blog post, and consider supplementing that image with your company logo or a pull quote highlighting a significant point from the text. Infographics also prove effective if your blog post offers statistics. If you don't have access to high-quality images, consider trying a stock photo site. 
 
 ### 7. Proofread Your Blog Prior to Publishing
-When it's all said and done, one crucial step still remains. You may have rewarded your audience with bloggable gold, yet [your blog's credibility and readership hinges on being accurate](http://blog.beegit.com/content_strategy/2015/09/04/why-proofreading-is-important-for-blog-posts/). Proofread for grammar and spelling; more important, though, revisit your content to make sure your message came across cleanly.
+When it's all said and done, one crucial step still remains. You may have rewarded your audience with bloggable gold, yet [your blog's credibility and readership hinges on being accurate](/2015/09/04/why-proofreading-is-important-for-blog-posts/). Proofread for grammar and spelling; more important, though, revisit your content to make sure your message came across cleanly.
 
 Nevermind that journalistic editing standards have diminished and social media proofreading never existed in the first place -- you're better than that. Read out loud, highlight a printout or ask a friend -- do whatever it takes to ensure your blog is proofread prior to publication.
 

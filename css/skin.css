@@ -413,13 +413,13 @@ li{
 }
 
 /* Hero Section */
-.hero-4-about{
-	background-image:url(../images/4.jpg);
+.home-callout{
+	background-image:url(../images/9.jpg);
 }
 
 /* Testimonial Section */
-.testimonials-5-about{
-	background-image:url(../images/team/team-hero.jpg);
+.about-callout{
+	background-image:url(../images/8.jpg);
 }
 
 /*------------------------------------------------------------------
@@ -1028,7 +1028,7 @@ a.action-buy:hover{
 @media only screen and (max-width: 768px){
 	.tmp-content-inner h1 {
 	font-size: 3.5rem;
-}
+	}
 }
 
 .post-author {
@@ -1119,6 +1119,55 @@ a.action-buy:hover{
 #disqus_thread {
   margin-bottom: 100px;
   margin-top: 60px;
+}
+
+.sidebar .widget-title {
+	padding-bottom: 10px;
+	line-height: 2;
+}
+
+.sidebar ul.posts {
+	margin-left: 0;
+}
+
+.sidebar .posts li {
+	list-style-type: none;
+	display: table;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.sidebar .posts li:last-child {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.sidebar .posts .title {
+	display: table-cell;
+    vertical-align: top;
+    padding: 0 0 0 15px;
+    font-weight: 700;
+    line-height: 1.2;
+    /*text-transform: uppercase;
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, serif;*/
+    font-size: 1.6rem;
+}
+
+.sidebar .posts a {
+	color: #333;
+}
+
+.sidebar .posts a:hover {
+	color: #2fb3b8;
+}
+
+.sidebar .posts img {
+	display: table-cell;
+    vertical-align: top;
+    max-width: 120px;
 }
 
 
@@ -1236,4 +1285,14 @@ a.action-buy:hover{
 
 .buffer:hover img {
     -webkit-filter: invert(100%) !important;
+}
+
+  @media only screen and (max-width: 768px){
+	.social-share {
+		text-align: center;
+  	}
+
+	.social-share .share {
+		display: none;
+	}
 }
