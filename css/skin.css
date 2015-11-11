@@ -1039,6 +1039,35 @@ a.action-buy:hover{
 	color: #999;
 }
 
+
+/* Subscribe Form Styling */
+/* ----------------------------------------------------------*/
+
+.featured-media-subscribe .form-element {
+    color: #ffffff;
+    border-bottom: 0.4rem solid #ffffff;
+    border-radius: 0;
+}
+
+.featured-media-subscribe input {
+	font-size: 1.6rem;
+}
+
+.featured-media-subscribe ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #ffffff;
+}
+.featured-media-subscribe :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #ffffff;
+   opacity:  1;
+}
+.featured-media-subscribe ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #ffffff;
+   opacity:  1;
+}
+.featured-media-subscribe :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #ffffff;
+}
+
 .subscribe-box {
 	text-align: center;
 	padding: 60px 20px;
@@ -1046,13 +1075,9 @@ a.action-buy:hover{
 }
 
 .subscribe-box .form-element {
-	padding-left: 0;
-    padding-right: 0;
-    background: none;
     color: #fff;
     border-bottom: 0.4rem solid #fff;
     border-radius: 0;
-    color: #fff;
 }
 
 .subscribe-box p {
@@ -1086,7 +1111,7 @@ a.action-buy:hover{
 }
 
 
-/* Disqus Styling*/
+/* Disqus Styling */
 /* ----------------------------------------------------------*/
 
 #disqus_thread {
