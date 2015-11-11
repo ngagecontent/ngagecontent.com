@@ -70,8 +70,9 @@ h4, h4 a,
 h5, h5 a,
 h6, h6 a{
 	color: #333;
-	letter-spacing: 0.1rem;
+	letter-spacing: 0.05rem;
 	text-transform: uppercase;
+	/*font-family: 'Montserrat', 'Helvetica Neue', Arial, serif;*/
 }
 h1 a:hover,
 h2 a:hover,
@@ -982,21 +983,20 @@ a.action-buy:hover{
 .post-content span .tweet-quote {
 	color: #55acee;
 	display: block !important;
-	margin: 70px auto !important;
-	width: 100% !important;
+	margin: 60px auto !important;
+	width: 85% !important;
 	font: italic 300 26px/32px "Lato", sans-serif !important;
 	text-align: center;
 	text-decoration: none;
 	border: 1px solid #55acee;
-	border-radius: 4px;
 	padding: 20px 35px;
 }
 
 .post-content span .tweet-quote:hover {
-	border: 1px solid #55acee;
+	border: 1px solid #2a7abf;
 	-webkit-transition: color 0.3s;
-	background-color: #55acee;
-	color: #fff;
+	background-color: #2a7abf;
+	color: #ffffff;
 }
 
 .post-content .tweet-quote:hover {
@@ -1007,6 +1007,7 @@ a.action-buy:hover{
   font-family: "fontawesome";
   content: "\f099";
   margin-left: 4px;
+  color: #55acee;
   font-style: normal;
 }
 
@@ -1032,7 +1033,7 @@ a.action-buy:hover{
 }
 
 .post-author {
-	border-bottom: 1px solid #dddddd;
+	border-bottom: 1px solid #eaedee;
 	padding-bottom: 25px;
 }
 
@@ -1072,7 +1073,7 @@ a.action-buy:hover{
 
 .subscribe-box {
 	text-align: center;
-	padding: 60px 20px;
+	padding: 40px 20px;
 	margin-bottom: 80px;
 }
 
@@ -1089,7 +1090,7 @@ a.action-buy:hover{
 .subscribe-box h2 {
 	font-size: 3.5rem;
 	font-family: 'Montserrat', 'Helvetica Neue', Arial, serif;
-	letter-spacing: .1rem;
+	letter-spacing: .03rem;
 }
 
 .subscribe-box input {
@@ -1112,17 +1113,34 @@ a.action-buy:hover{
    color:    #ffffff;
 }
 
+.blog-single-post {
+	margin-top: 32px;
+}
+
 
 /* Disqus Styling */
 /* ----------------------------------------------------------*/
 
 #disqus_thread {
-  margin-bottom: 100px;
+  margin-bottom: 60px;
   margin-top: 60px;
 }
 
+/* Sidebar Styles */
+/* ----------------------------------------------------------*/
+
+
+.widget {
+	border: 5px solid #e9e9e9;
+	padding: 30px 30px 10px 30px;
+}
+
+.widget.related {
+	border: 5px solid #bdc7c9;
+}
+
 .sidebar .widget-title {
-	padding-bottom: 10px;
+	padding-bottom: 0;
 	line-height: 2;
 }
 
@@ -1136,24 +1154,24 @@ a.action-buy:hover{
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #eaedee;
     padding-top: 20px;
 }
 
 .sidebar .posts li:last-child {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #eaedee;
     padding-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .sidebar .posts .title {
 	display: table-cell;
     vertical-align: top;
     padding: 0 0 0 15px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.2;
-    /*text-transform: uppercase;
-    font-family: 'Montserrat', 'Helvetica Neue', Arial, serif;*/
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    text-align: left;
 }
 
 .sidebar .posts a {
@@ -1167,9 +1185,28 @@ a.action-buy:hover{
 .sidebar .posts img {
 	display: table-cell;
     vertical-align: top;
-    max-width: 120px;
+    max-width: 100px;
 }
 
+@media only screen and (max-width: 1140px){
+	.sidebar .posts img {
+    max-width: 90px;
+	}
+}
+
+
+@media only screen and (max-width: 960px){
+	.sidebar .posts img {
+    display: none;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.sidebar .posts img {
+    max-width: 120px;
+    display: inline-block;
+	}
+}
 
 /* Social Bar Styles */
 /* ----------------------------------------------------------*/
@@ -1187,9 +1224,9 @@ a.action-buy:hover{
   margin: 0 !important;
   padding: 9px 4px 0 0;
   float: left;
-  font-size: 12px;
   text-transform: uppercase;
-  font-weight: 500;
+  /*font-size: 12px;*/
+  /*font-weight: 500;*/
 }
 
 .social-share a {
@@ -1209,7 +1246,6 @@ a.action-buy:hover{
   padding: 0;
   margin-top: -5px;
 }
-
 
 .twitter {
   background-color: #ffffff;
@@ -1287,7 +1323,7 @@ a.action-buy:hover{
     -webkit-filter: invert(100%) !important;
 }
 
-  @media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
 	.social-share {
 		text-align: center;
   	}

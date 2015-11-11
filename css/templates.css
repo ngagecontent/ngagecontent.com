@@ -797,7 +797,7 @@ body.boxed .header .header-inner{
 
 /* Bkg Color Classes */
 .header.header-background .header-inner{
-	background: #232323;
+	background: #222222;
 }
 
 /* Compacted Header Class*/
@@ -5467,7 +5467,7 @@ body.boxed .blog-masonry.full-width [class*="content-grid"]{
 .post-author{
 	padding-top: 3rem;
 	margin-top: 3rem;
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #eaedee;
 }
 .post-author .author-avatar{
 	max-width: 7rem;
@@ -5491,7 +5491,7 @@ body.boxed .blog-masonry.full-width [class*="content-grid"]{
 .post-comments{
 	padding-top: 3rem;
 	margin-top: 3rem;
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #eaedee;
 }
 .post-comments .comments-title{
 	margin-bottom: 3rem;
