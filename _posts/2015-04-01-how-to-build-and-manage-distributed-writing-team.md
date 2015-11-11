@@ -4,7 +4,7 @@ layout: post
 title:  How to build and manage a distributed writing team 
 date:   2015-04-01 12:00:00
 teaser: The rise of the remote worker presents opportunities to grow your writing team with talent across the globe
-image: https://s3.amazonaws.com/beegit-images/blog/headers/build-distributed-writing-team.jpg
+image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/build-distributed-writing-team.jpg
 author: mike_cottrill
 comments: true
 redirect_from: "/agile_content/2015/04/01/how-to-build-and-manage-distributed-writing-team/"

@@ -5,7 +5,7 @@ title: Making your content more valuable with an audit
 keyword: auditing your content
 date:   2015-03-12 12:00:00
 teaser: Better understand the value of your content through a quick audit of what your team has created 
-image: https://s3.amazonaws.com/beegit-images/blog/headers/content-audit.jpg
+image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/content-audit.jpg
 author: mike_cottrill
 comments: true
 redirect_from: "/agile_content/2015/03/12/how-to-audit-content/"
