@@ -2,41 +2,44 @@
 layout: default
 ---
 
-<!-- Parallax Section -->
-<div class="section-block featured-media">
-	<div class="parallax fixed-height" data-src="/images/4.jpg" data-retina>
-		<div class="tmp-content">
-			<div class="tmp-content-inner left">
-				<div class="row">
-					<div class="column width-12">
-						<h1 class="horizon letter-spaced weight-bold color-white no-margin-bottom inline" 
-							data-animate-in="opacity:0;scale:1.5;duration:400ms;easing:swing;"
-						>
-							BLOG
-						</h1>
-						<div class="clear"></div>
-						<span class="horizon text-medium letter-spaced weight-light color-white no-margin-bottom" 
-								data-animate-in="opacity:0;transY:30px;duration:400ms;delay:200ms;easing:swing;"
-						>
-							ONGOING AT NIETZSCHE
-						</span>
+<div class="content clearfix reveal-side-navigation">
+
+	<!-- Parallax Section -->
+	<div class="section-block featured-media">
+		<div class="parallax fixed-height" data-src="/images/4.jpg" data-retina>
+			<div class="tmp-content">
+				<div class="tmp-content-inner left">
+					<div class="row">
+						<div class="column width-12">
+							<h1 class="horizon letter-spaced weight-bold color-white no-margin-bottom inline" 
+								data-animate-in="opacity:0;scale:1.5;duration:400ms;easing:swing;"
+							>
+								BLOG
+							</h1>
+							<div class="clear"></div>
+							<span class="horizon text-medium letter-spaced weight-light color-white no-margin-bottom" 
+									data-animate-in="opacity:0;transY:30px;duration:400ms;delay:200ms;easing:swing;"
+							>
+								DUIS AUTEM LOREMASTA
+							</span>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<!-- Parallax Section End -->
+	<!-- Parallax Section End -->
 
-<!-- Content Inner -->
-<!-- <div class="section-block content-inner blog-masonry large-margins"> -->
-<div class="section-block content-inner blog-masonry full-width large-margins">
-	<div class="row">
-		<div class="column width-12">
-			<div class="row content-grid-4 masonry-grid clearfix">
-				{% for post in site.posts %}
-				{% include post-list.html %} 
-				{% endfor %}
+	<!-- Content Inner -->
+	<!-- <div class="section-block content-inner blog-masonry large-margins"> -->
+	<div class="section-block content-inner blog-masonry full-width large-margins">
+		<div class="row">
+			<div class="column width-12">
+				<div class="row content-grid-4 masonry-grid clearfix">
+					{% for post in site.posts %}
+					{% include post-list.html %} 
+					{% endfor %}
+				</div>
 			</div>
 		</div>
 	</div>

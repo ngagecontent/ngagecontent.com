@@ -3776,13 +3776,15 @@ only screen and (				min-resolution: 2dppx) {
 }
 .stats-2 .counter{
 	margin-bottom: 0.5rem;
-	font-size: 5.5rem;
+	font-size: 7rem;
 	line-height: 1;
 	font-weight: bold;
 }
 .stats-2 .description{
 	font-size: 1.2rem;
 	text-transform: uppercase;
+	width: 85%;
+	margin: 20px auto;
 }
 .stats-2 p:last-child{
 	margin-bottom: 0;

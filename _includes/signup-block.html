@@ -1,0 +1,27 @@
+<div class="section-block bkg-turquoise subscribe-box">
+  <div class="row medium">
+    <div class="column width-8 offset-2">
+        {% if page.keyword  == null %}
+          <h2 >Subscribe today!</h2>
+          <p class="weight-light color-white">Get more amazing content like this delivered to your inbox twice a month. Unsubscribe any time.</p>
+          {% else %}
+          <h2>Want to learn more about <strong>{{page.keyword}}?</strong></h2> 
+          <p class="weight-light color-white">Subscribe today and get more amazing content like this delivered to your inbox twice a month.</p>
+        {% endif %}
+    </div>
+    <div class="column width-8 offset-2">
+      <form class="form-inline" action='https://beegitbuzz.curated.co/email_subscribers' id='subscribe-form' method='post'>
+        <div class="form-group">
+          <div class="row">
+            <div class="column width-12">
+              <input class="form-element" id='subscribe-email' name='email' type='email' placeholder="Enter your email"/>
+            </div>
+            <div class="column width-12">
+               <input type='submit' class="form-submit large button bkg-charcoal bkg-hover-charcoal color-white color-hover-white" onclick="this.form.submit(); this.disabled=true; this.value='Sending...';" value='Subscribe'/>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

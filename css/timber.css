@@ -3996,6 +3996,7 @@ pre code{
 [class*="bkg-hover-"]:visited *{
 	color: inherit;
 }
+.bkg-angled{background: url('../images/bg-strip.png')}
 .bkg-turquoise{background: #31b0b4; border-color: #31b0b4;}
 .bkg-hover-turquoise:hover{background: #008b73; border-color: #008b73;}
 .bkg-turquoise-light{background: #00bd9c; border-color: #00bd9c;}
