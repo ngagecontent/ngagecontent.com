@@ -46,7 +46,7 @@ h6,
 	font-family: 'Montserrat', 'Helvetica Neue', Arial, serif;
 }
 .counter{
-	font-family: 'Helvetica Neue', Arial, serif;
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, serif;
 }
 
 
@@ -82,7 +82,7 @@ h6 a:hover{
 	color: #2fb3b8;
 }
 h1 {
-	font-size: 4.8rem;
+	font-size: 4rem;
 
 }
 h2 {
@@ -750,7 +750,7 @@ textarea:focus{
 }
 .form-element.required-field,
 textarea.required-field{
-	border-color: #bb9b69;
+	border-color: #2fb3b8;
 }
 .form-element.required-field:focus,
 textarea.required-field:focus{
@@ -774,7 +774,7 @@ textarea.required-field:focus{
 }
 .fullscreen-section .form-element.required-field,
 .fullscreen-section textarea.required-field{
-	border-color: #bb9b69;
+	border-color: #2fb3b8;
 }
 .fullscreen-section .form-element.required-field:focus,
 .fullscreen-section textarea.required-field:focus{
@@ -1021,12 +1021,14 @@ a.action-buy:hover{
   border-bottom: 1px solid #2a7abf;
 }
 
-.hero-content-inner p {
-	color: #fff;
-}
-
 .tmp-content-inner h1 {
 	font-family: 'Montserrat', 'Helvetica Neue', Arial, serif;
+}
+
+@media only screen and (max-width: 768px){
+	.tmp-content-inner h1 {
+	font-size: 3.5rem;
+}
 }
 
 .post-author {
