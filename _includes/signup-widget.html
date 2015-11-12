@@ -1,0 +1,25 @@
+<div class="row small">
+  <div class="column width-12">
+      {% if page.keyword  == null %}
+        <h3 class="widget-title">Subscribe today!</h3>
+        <p class="weight-light">Get more amazing content like this delivered to your inbox twice a month. Unsubscribe any time.</p>
+        {% else %}
+        <h3 class="widget-title">Want to learn more about <strong>{{page.keyword}}?</strong></h3> 
+        <p class="weight-light">Subscribe today and get more amazing content like this delivered to your inbox twice a month.</p>
+      {% endif %}
+  </div>
+  <div class="column width-12">
+    <form class="form-inline" action='https://beegitbuzz.curated.co/email_subscribers' id='subscribe-form' method='post'>
+      <div class="form-group">
+        <div class="row">
+          <div class="column width-12">
+            <input class="form-element" id='subscribe-email' name='email' type='email' placeholder="Enter your email"/>
+          </div>
+          <div class="column width-12">
+             <input type='submit' class="form-submit medium button bkg-charcoal bkg-hover-charcoal color-white color-hover-white" onclick="this.form.submit(); this.disabled=true; this.value='Sending...';" value='Subscribe'/>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
