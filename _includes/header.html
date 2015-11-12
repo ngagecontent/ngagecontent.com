@@ -10,21 +10,11 @@
       </div>
       <nav class="overlay-navigation">
         <ul>
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/blog">Blog</a>
-          </li>
-          <li>
-            <a href="/subscribe">Subscribe</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
+          {% for link in site.links %}
+            <li>
+                <a href="{{ link.url }}">{{ link.title }}</a>
+            </li>
+            {% endfor %} 
         </ul>
       </nav>
       <div class="overlay-navigation-footer row full-width">
@@ -36,7 +26,6 @@
   </div>
 </header>
 <header class="header-4 header" data-sticky-threshold="window-height" data-bkg-threshold="window-height">
-<!-- <header class="header-1 header" data-sticky-threshold="0" data-bkg-threshold="window-height"> -->
   <div class="header-inner">
     <div class="row nav-bar reveal-side-navigation">
       <div class="column width-12 nav-bar-inner">

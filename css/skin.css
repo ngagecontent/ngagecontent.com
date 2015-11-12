@@ -793,19 +793,29 @@ textarea.required-field:focus{
 	background-color: #000; 
 	border-color: #000;
 }
+
+ul.social-list {
+	margin-left: 0;
+	margin-top: 35px;
+}
 .social-list li{
-	font-size: 1.1rem;
-	text-transform: uppercase;
-	font-weight: bold;
+	font-size: 1.4rem;
+	list-style-type: none;
+	padding-left: 0;
+	padding-bottom: 8px;
+	padding-top: 4px;
+	padding-left: 0;
+	margin: 0;
+	border-bottom: 1px dotted #333
+}
+.social-list i {
+	margin-right: 4px;
 }
 .social-list,
 .social-list li a{
 	color: #999;
 }
-.social-list li a{
-	margin-left: 0.5rem;
-	margin-right: 0.5rem;
-}
+
 .social-list li.social-list-label{
 	color: #333;
 }
@@ -815,12 +825,8 @@ textarea.required-field:focus{
 .overlay-navigation-footer .social-list a,
 .footer-1 .social-list a, 
 .fullscreen-section footer .social-list a{
-	margin-left: 0.8rem;
-	margin-right: 0.8rem;
-	font-size: 1.1rem;
-	font-weight: bold;
-	text-transform: uppercase;
-	letter-spacing: 0.1rem;
+	margin-left: 0;
+	font-size: 1.4rem;
 }
 .social-list li:first-child a{
 	margin-left: 0;
@@ -834,7 +840,7 @@ textarea.required-field:focus{
 	color: #fff;
 }
 .fullscreen-section .social-list a{
-	opacity: 0.6;
+	opacity: 0.7;
 }
 .fullscreen-section .social-list a:hover{
 	color: #fff;
@@ -842,7 +848,7 @@ textarea.required-field:focus{
 }
 .footer-1 .social-list,
 .footer-1 .social-list a{
-	color: #555;
+	color: #999;
 }
 
 /*------------------------------------------------------------------
@@ -1041,6 +1047,29 @@ a.action-buy:hover{
 	margin-top: 10px;
 	color: #999;
 }
+
+blockquote {
+	padding-left: 25px;
+	border-left: 5px solid #e9e9e9;
+	font-style: italic;
+}
+
+blockquote p {
+	color: #959595;
+}
+
+pre code {
+	font-size: 1.5rem;
+	font-family: "Courier New", Courier, monospace, sans-serif;
+}
+
+pre {
+	background-color: #f4f4f4;
+	padding: 20px;
+	clear: both;
+}
+
+
 
 
 /* Subscribe Form Styling */

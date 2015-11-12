@@ -6,22 +6,44 @@
           <a href="/"><img src="/images/logo-mark.png" alt="Nietzsche Logo" /></a>
         </div>
       </div>
-      <div class="column width-5">
+      <div class="column width-7">
         <div class="footer-top-inner">
           <h3>NGAGECONTENT</h3>
           <p>Sed at ligula id turpis convallis dignissim. Sed ac leo id risus cursus tincidunt. Sed aliquet tortor nec leo iaculis placerat. Donec egestas ullamcorper sapien a sagittis. Quisque non consequat nulla. Duis iaculis tellus eu elit placerat, quis tempor nisl fermentum. Integer posuere tortor eget rhoncus commodo. Suspendisse pulvinar.</p>
         </div>
       </div>
-      <div class="column width-3 push-1">
+      <div class="column width-2 push-1">
         <div class="footer-top-inner">
-          <h3>LOREMASTA VUIT</h3>
-          <p>Sed at ligula id turpis convallis dignissim. Sed ac leo id risus cursus tincidunt. Sed aliquet tortor nec leo iaculis placerat. Donec egestas ullamcorper sapien a sagittis. Quisque non consequat nulla.</p>
+          <h3>MORE INFO</h3>
+          <ul class="social-list">
+            {% for link in site.links %}
+                <li class="navigation">
+                    <a href="{{ link.url }}">{{ link.title }}</a>
+                </li>
+            {% endfor %} 
+          </ul>
         </div>
       </div>
-      <div class="column width-3 push-1">
+      <div class="column width-2 push-1">
         <div class="footer-top-inner">
-          <h3>DUIS AUTEM</h3>
-          <p>Sed at ligula id turpis convallis dignissim. Sed ac leo id risus cursus tincidunt. Sed aliquet tortor nec leo iaculis placerat. Donec egestas ullamcorper sapien a sagittis. Quisque non consequat nulla.</p>
+          <h3>CONNECT</h3>
+          <ul class="social-list">
+            {% if site.social.twitter %}
+            <li><a href="{{ site.social.twitter }}" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
+            {% endif %}
+            {% if site.social.facebook %}
+            <li><a href="{{ site.social.facebook }}" target="_blank"><i class="fa fa-facebook"></i> Facebook</a></li>
+            {% endif %}
+            {% if site.social.linkedin %}
+            <li><a href="{{ site.social.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
+            {% endif %}
+            {% if site.social.google_plus %}
+            <li><a href="{{ site.social.google_plus }}" target="_blank"><i class="fa fa-google-plus"></i> Google+</a></li>
+            {% endif %}
+            {% if site.social.instagram %}
+            <li><a href="{{ site.social.instagram }}" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></li>
+            {% endif %}
+          </ul>
         </div>
       </div>
       
@@ -32,12 +54,6 @@
       <div class="column width-12">
         <div class="footer-bottom-inner">
           <p class="copyright no-margin-bottom">&copy; 2015 NGAGECONTENT. All Rights Reserved.</p>
-          <!-- <ul class="social-list list-horizontal">
-            <li><a href="#">Facebook</a>/</li>
-            <li><a href="#">Twitter</a>/</li>
-            <li><a href="#">Behance</a>/</li>
-            <li><a href="#">Google+</a></li>
-          </ul> -->
         </div>
       </div>
     </div> 

@@ -8,3 +8,27 @@ url: "http://ngagecontent.com"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Links to include in site navigation
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Blog
+    url: /blog
+  - title: Subscribe
+    url: /subscribe
+  - title: Contact
+    url: /contact
+
+# Google analytics
+google_analytics:   UA-62439730-1
+
+# Social media links
+social:
+  twitter:  https://twitter.com/ngagecontent
+  facebook: https://www.facebook.com/ngagecontent
+  linkedin: 
+  google_plus:
+  instagram: 

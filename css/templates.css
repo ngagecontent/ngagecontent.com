@@ -4696,7 +4696,7 @@ body.boxed .pagination-2{
 .footer .navigation li:hover a{
 	background: none;
 }
-.footer .navigation li:first-child a,
+/*.footer .navigation li:first-child a,
 .footer .social-list li:first-child a{
 	padding-left: 0;
 	margin-left: 0;
@@ -4705,7 +4705,7 @@ body.boxed .pagination-2{
 .footer .social-list li:last-child a{
 	padding-right: 0;
 	margin-right: 0;
-}
+}*/
 
 /* Boxed Layout */
 body.boxed .footer .footer-top,
@@ -4745,12 +4745,12 @@ body.boxed .footer .footer-bottom{
 	font-size: 1.1rem;
 	float: left;
 }
-.footer-1 .navigation a{
+/*.footer-1 .navigation a{
 	line-height: 2rem;
 	text-transform: uppercase;
 	background: none;
 	padding: 0 1rem;
-}
+}*/
 .footer-1 .navigation a:hover{
 	background:none;
 	color: #fff;

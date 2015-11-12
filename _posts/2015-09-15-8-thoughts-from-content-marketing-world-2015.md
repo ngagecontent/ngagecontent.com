@@ -57,7 +57,8 @@ Travis Wright had an overwhelming amount of tools and analytics hacks to share, 
 **Learned from Ann Handley <a href="http://twitter.com/MarketingProfs" target="_blank">@MarketingProfs</a>**
 
 First, a direct quote from the always-quotable Ann that caught my attention: 
->Engaging content is more about brains than budget. 
+
+> Engaging content is more about brains than budget. 
 
 To create this content, Ann shared that you must focus on making content: 
 
