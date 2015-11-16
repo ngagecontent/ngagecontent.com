@@ -13,8 +13,6 @@ permalink: pretty
 links:
   - title: Home
     url: /
-  - title: About
-    url: /about
   - title: Blog
     url: /blog
   - title: Subscribe
@@ -29,6 +27,6 @@ google_analytics:   UA-62439730-1
 social:
   twitter:  https://twitter.com/ngagecontent
   facebook: https://www.facebook.com/ngagecontent
-  linkedin: 
-  google_plus:
+  linkedin: https://www.linkedin.com/company/ngagecontent
+  google_plus: https://plus.google.com/u/0/b/109715903752747703433/109715903752747703433/about/p/pub
   instagram: 
