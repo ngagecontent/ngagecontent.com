@@ -1,0 +1,15 @@
+language: ruby
+rvm:
+- 2.1
+install: gem install jekyll
+script: jekyll build
+deploy:
+  provider: s3
+  access_key_id: AKIAJRD67H6BOSFSBTVQ
+  secret_access_key:
+    secure: kEVmBwXsWYAsGJukZRRtcvITEC4E5zbp8gxDhE/TBhWyxoTFWy54X/KW6JAInhybkLRnLKsGzFX0GFT4/0HIE4gfBSr36QNIfPJXfLECOPqqdg2zb65oQ+4s2o0AkB/0WME9p2JkCeW3OrmjgYlZS8ef9TzVkc6HOI5FEYEXiU42MRVDFwPk7BjpibQHj6xuZ5SYCsV0PrT5xG2njTwQPnqSlFSiwXYLkGkm81+LQFyVB3K7m0ZSuWbwCZzECeJ1Z6eVFt8YorfhxRhcctpEbHOLrzLM3NaQm/8XyOmp8VkdcMxoPg7gzDPvHIz7iIb370zG0ZkYkfm65Of9JUEwhui3ICr9RqKslr6hExdhzkuVYxEh3/ntg77pvehYwJI8WQ00Qr0+9Xbrhi7Q7XrVajUYFjyeeg5+QGT5QgIkyDu1v1bQRhpBIaF5tH/oz8GKWJjQzcOOP+jRbe8hgfbPfbfymZr/UuZF5XWuwOZgcErPAKmjjkgPKk5tSBoLeX156XgTGLI3YdjGR9k2hWHH5MZjNNNHkRwXbBTnnA89omQCdymZoVab25sD0Oby5hZmNUKORDSGXOvXLRBAISsKpy2MzUfqHwc/jXqfeSwz84Iq/IfNEaqfnFiS/kfXxEuzAwsIAOZw7hKPNYpKnIEC59m7OiBINlFCY2d1Ku6yrxo=
+  bucket: ngagecontent.com
+  local-dir: site
+  acl: public_read
+  on:
+    repo: ngagecontent/ngagecontent.com
