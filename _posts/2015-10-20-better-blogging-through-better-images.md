@@ -8,7 +8,7 @@ teaser: The application of the "picture's worth a thousand words" mantra is seem
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/better-blogging-through-better-images.jpg
 author: matt_bixenstine
 comments: true
-shortUrl: http://buff.ly/1LIAaWL
+shortUrl: http://buff.ly/1j5nhOj
 
 ---
 

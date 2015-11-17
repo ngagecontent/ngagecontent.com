@@ -8,7 +8,7 @@ teaser: The forthcoming MarketingProfs/Content Marketing Institute study found t
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/creating-content-that-matters.jpg
 author: mike_cottrill
 comments: true
-shortUrl: http://buff.ly/1Ns0HN1
+shortUrl: http://buff.ly/1OdwZJx
 
 ---
 

@@ -7,7 +7,7 @@ teaser: Today, we're very happy to formally welcome the newest member of our edi
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/bixenstine-release.jpg
 author: mike_cottrill
 comments: true
-shortUrl: http://buff.ly/1EEvhjK
+shortUrl: http://buff.ly/1OdwRKg
 
 ---
 

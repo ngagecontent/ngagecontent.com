@@ -8,8 +8,7 @@ teaser: Better understand the value of your content through a quick audit of wha
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/content-audit.jpg
 author: mike_cottrill
 comments: true
-redirect_from: "/agile_content/2015/03/12/how-to-audit-content/"
-shortUrl: http://buff.ly/1D3RH7v
+shortUrl: http://buff.ly/1S1ygod
 
 ---
 

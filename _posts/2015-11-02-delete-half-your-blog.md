@@ -8,7 +8,7 @@ teaser: Erasing content can be a necessary evil pitted against the prideful cont
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/when_deleting_half_your_blog_is_smart.jpg
 author: matt_bixenstine
 comments: true
-shortUrl: http://buff.ly/1P6YGqp
+shortUrl: http://buff.ly/1HTbNsY
 
 ---
 

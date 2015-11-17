@@ -8,7 +8,7 @@ teaser: If you believe content marketing's the present and future, now's the tim
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/how-to-convince-your-boss-to-invest-in-content-marketing.jpg
 author: matt_bixenstine
 comments: true
-shortUrl: http://buff.ly/1VDyjMD
+shortUrl: http://buff.ly/1S1yOdJ
 
 ---
 

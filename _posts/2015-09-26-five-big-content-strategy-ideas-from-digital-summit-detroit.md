@@ -7,7 +7,7 @@ teaser: The Best Place to Hide a Dead Body is Page 2 of Google Search Results.
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/digital-summit-detroit.jpg
 author: mike_cottrill
 comments: true
-shortUrl: http://buff.ly/1PJGkZv
+shortUrl: http://buff.ly/20ZApXn
 
 ---
 Few things get the creative mind going like throwing several hundred digital experts and content writers into a tiny music hall for a few days and letting them talk shop. 

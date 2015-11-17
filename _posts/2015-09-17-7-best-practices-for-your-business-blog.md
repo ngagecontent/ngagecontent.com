@@ -8,8 +8,7 @@ teaser: Ten years ago blogging was for tech gurus and travel enthusiasts. Today 
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/7-best-practices-for-your-business-blog.jpg
 author: matt_bixenstine
 comments: true
-shortUrl: http://goo.gl/GsoGNI
-redirect_from: "/content_strategy/2015/09/17/7-Best-Practices-for-your-Business-Blog"
+shortUrl: http://buff.ly/1OdwYFI
 
 ---
 

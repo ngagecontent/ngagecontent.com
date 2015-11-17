@@ -8,7 +8,7 @@ teaser: If content is king, then long live the king.
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/how-to-repurpose-content-like-a-pro.png
 author: matt_bixenstine
 comments: true
-shortUrl: http://buff.ly/1Lkkjxb
+shortUrl: http://buff.ly/20ZAz0Q
 
 ---
 

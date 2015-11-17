@@ -8,7 +8,7 @@ teaser: Like a tourist destination, a blog destination must offer uniqueness, wi
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/b2b-blogs-that-will-rock-your-face.jpg
 author: matt_bixenstine
 comments: true
-shortUrl: http://buff.ly/1gRAt8i
+shortUrl: http://buff.ly/1SA5kDI
 
 ---
  

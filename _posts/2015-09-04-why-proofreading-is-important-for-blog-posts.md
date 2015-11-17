@@ -7,7 +7,7 @@ teaser: Weve all red a sentense like this 1. Your editorial conscience subsequen
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/why-proofreading-is-important.jpg
 author: matt_bixenstine
 comments: true
-shortUrl: http://buff.ly/1JOriO6
+shortUrl: http://buff.ly/1OdwSOi
 
 ---
 

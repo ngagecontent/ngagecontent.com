@@ -8,8 +8,7 @@ teaser: A handful of headline writers throughout history have had it easy. A his
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/click-worthy-headlines.jpg
 author: matt_bixenstine
 comments: true
-redirect_from: "/content_strategy/2015/09/11/writing-headlines-blog/"
-shortUrl: http://buff.ly/1OksQF1
+shortUrl: http://buff.ly/1HTaUR3
 
 ---
 

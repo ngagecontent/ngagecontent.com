@@ -7,8 +7,7 @@ teaser: Content Marketing World 2014 made its way through Cleveland last week an
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/cmworld-2014.jpg
 author: mike_cottrill
 comments: true
-redirect_from: "/agile_content/2014/09/15/thoughts-from-content-marketing-world/"
-shortUrl: http://buff.ly/1Tr9HCo
+shortUrl: http://buff.ly/1Odwy26
 
 ---
 

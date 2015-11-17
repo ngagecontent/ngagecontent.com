@@ -8,7 +8,7 @@ teaser: Did you know that B2B Marketers with a content strategy are nearly 300 p
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/25-content-marketing-stats.jpg
 author: matt_bixenstine
 comments: true
-shortUrl: http://buff.ly/1VzwgUu
+shortUrl: http://buff.ly/1PxZfK4
 
 ---
 
