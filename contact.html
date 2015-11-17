@@ -52,10 +52,16 @@ layout: default
 			<div>
 				<form action="//formspree.io/jd@ngagecontent.com" method="POST">
 					<div class="row">
-						<input type="hidden" name="_subject" value="New Web Inquiry from NgageContent.com" />
-						<input type="hidden" name="_next" value="/thanks" />
 						<div class="column width-6">
-							<input type="text" name="name" class="form-fname form-element large" placeholder="Name*" tabindex="1" required>
+							<input type="text" name="fname" class="form-fname form-element large" placeholder="First Name*" tabindex="1" required>
+						</div>
+						<div class="column width-6">
+							<input type="text" name="_replyto" class="form-fname form-element large" placeholder="Last Name*" tabindex="3" required>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column width-6">
+							<input type="text" name="company" class="form-fname form-element large" placeholder="Company*" tabindex="1" required>
 						</div>
 						<div class="column width-6">
 							<input type="email" name="_replyto" class="form-email form-element large" placeholder="Email address*" tabindex="3" required>
@@ -66,7 +72,7 @@ layout: default
 							<textarea name="message" class="form-message form-element medium" placeholder="Message*" tabindex="5" required></textarea>
 							<input type="submit" value="Send" class="form-submit medium button bkg-charcoal bkg-hover-charcoal color-white color-hover-white">
 							<input type="hidden" name="_subject" value="New Web Inquiry from NgageContent.com" />
-					<input type="hidden" name="_next" value="/thanks" />
+							<input type="hidden" name="_next" value="/thanks" />
 						</div>
 					</div>
 				</form>
