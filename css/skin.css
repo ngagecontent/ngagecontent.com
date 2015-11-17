@@ -1173,6 +1173,19 @@ pre {
   margin-top: 60px;
 }
 
+/* Related Post Styles */
+/* ----------------------------------------------------------*/
+
+.related-content {
+	margin-top: 60px;
+}
+
+.related-content h3 {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+
 /* Sidebar Styles */
 /* ----------------------------------------------------------*/
 
