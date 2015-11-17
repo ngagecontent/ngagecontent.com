@@ -2,45 +2,47 @@
 layout: default
 ---
 
+
 <div class="content clearfix reveal-side-navigation">
 
-	<!-- Parallax Section -->
-	<div class="section-block featured-media">
-		<div class="parallax fullscreen" data-src="/images/6.jpg" data-retina>
-			<div class="tmp-content">
-				<div class="tmp-content-inner left">
-					<div class="row">
-						<div class="column width-12">
-							<h1 class="horizon letter-spaced weight-bold color-white no-margin-bottom inline" 
+<!-- Parallax Section -->
+<div class="section-block featured-media">
+	<div class="parallax fullscreen" data-src="/images/6.jpg" data-retina>
+		<div class="tmp-content">
+			<div class="tmp-content-inner left">
+				<div class="row">
+					<div class="column width-12">
+						<h1 class="horizon letter-spaced weight-bold color-white no-margin-bottom inline" 
 								data-animate-in="opacity:0;scale:1.5;duration:400ms;easing:swing;">
-								BLOG
-							</h1>
-							<div class="clear"></div>
-							<span class="horizon text-medium letter-spaced weight-light color-white no-margin-bottom" 
-									data-animate-in="opacity:0;transY:30px;duration:400ms;delay:200ms;easing:swing;">
-								DUIS AUTEM LOREMASTA
-							</span>
-							{% include featured-media-signup.html %} 
-						</div>
+							BLOG
+						</h1>
+						<div class="clear"></div>
+						<span class="horizon text-medium letter-spaced weight-light color-white no-margin-bottom" 
+								data-animate-in="opacity:0;transY:30px;duration:400ms;delay:200ms;easing:swing;" style="text-transform: uppercase;">
+							Ngage Content’s Marketing Strategy Blog
+						</span>
+						{% include featured-media-signup.html %} 
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- Parallax Section End -->
+</div>
+<!-- Parallax Section End -->
 
-	<!-- Content Inner -->
-	<div class="section-block content-inner blog-masonry full-width large-margins">
-		<div class="row">
-			<div class="column width-12">
-				<div class="row content-grid-4 masonry-grid clearfix">
-					{% for post in site.posts %}
-					{% include post-list.html %} 
-					{% endfor %}
-				</div>
+<!-- Content Section -->
+<div class="section-block bkg-grey-ultralight replicable-content">
+	<div class="row medium">
+		<div class="column width-12">
+			<div class="row content-grid-4 masonry-grid clearfix">
+				{% for post in site.posts %}
+				{% include post-list.html %} 
+				{% endfor %}
 			</div>
 		</div>
 	</div>
+</div>
+<!-- Content Section End -->
 </div>
 
 

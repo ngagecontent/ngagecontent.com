@@ -10,8 +10,6 @@ author: mike_cottrill
 comments: true
 shortUrl: http://buff.ly/1Ns0HN1
 
-
-
 ---
 
 Creating compelling, relevant content is difficult. 

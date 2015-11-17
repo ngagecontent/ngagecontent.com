@@ -67,31 +67,24 @@ layout: default
 			</div>
 			{% endif %}
 
-			<div id="disqus_thread"></div>
-	          <script type="text/javascript">
-	              $(function(e) {
-	                  $(".tweet-quote").click(function() {
-	                      var tweetText = encodeURI('"' + $(this).text() + '"');
-	                      var href = "https://twitter.com/intent/tweet?text=" + tweetText +
-	                          "&url={{ page.shortUrl }}&via=ProjectBeegit";
-
-	                      window.open(href, 'child', 'scrollbars,width=650,height=500');
-	                  });
-	              });
-
-	              /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-	              var disqus_shortname = 'beegit'; // required: replace example with your forum shortname
-
-	              /* * * DON'T EDIT BELOW THIS LINE * * */
-	              (function() {
-	                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-	                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	              })();
-	          </script>
-	          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			{% if content and page.related %}
+				<div class="post related">
+					<h4>You Might Also Like...</h4>
+					<ul class="posts">  
+					    {% for post in site.posts %}
+					        {% if page.related contains post.title %}
+					            <li class="navigation column width-6">  
+							   	<a href="{{ BASE_PATH }}{{ post.url }}"><img src="{{ post.image }}"></a>
+							   <a href="{{ BASE_PATH }}{{ post.url }}"  class="title">{{ post.title }}</a>  
+							   </li>
+					        {% endif %}
+					    {% endfor %}
+				    </ul>
+				</div>
+			{% endif %}
 				
-			</div>
+		</div>
+
 
 		<!-- Sidebar -->
 		<aside class="column width-4 push-1 sidebar">
