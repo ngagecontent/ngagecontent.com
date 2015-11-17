@@ -30,6 +30,15 @@ Copyright: ThemeMountain
 /*------------------------------------------------------------------
 [1. Typography]
 */
+
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
 body,
 h1, 
 h2, 
@@ -1185,6 +1194,16 @@ pre {
 	margin-bottom: 60px;
 }
 
+.blog-masonry .related-post-title {
+	font-size: 2.0rem !important;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+/*.related-content article {
+	border: 1px solid #e9e9e9;
+}
+*/
 
 /* Sidebar Styles */
 /* ----------------------------------------------------------*/
