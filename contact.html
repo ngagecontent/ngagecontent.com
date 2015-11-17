@@ -51,7 +51,15 @@ layout: default
 		</div>
 		<div class="column width-8">
 			<div class="contact-form-container">
-				<form class="contact-form" action="//formspree.io/jd@ngagecontent.com" method="POST" novalidate>
+				<form action="//formspree.io/jd@ngagecontent.com"
+				      method="POST">
+				    <input type="text" name="name">
+				    <input type="email" name="_replyto">
+				    <input type="submit" value="Send">
+				    <input type="hidden" name="_subject" value="New Web Inquiry from NgageContent.com" />
+					<input type="hidden" name="_next" value="/thanks" />
+				</form>
+				<!-- <form class="contact-form" action="//formspree.io/jd@ngagecontent.com" method="POST" novalidate>
 					<div class="row">
 						<input type="hidden" name="_subject" value="New Web Inquiry from NgageContent.com" />
 						<input type="hidden" name="_next" value="/thanks" />
@@ -77,8 +85,7 @@ layout: default
 							<input type="submit" value="Send" class="form-submit medium button bkg-charcoal bkg-hover-charcoal color-white color-hover-white">
 						</div>
 					</div>
-				</form>
-				<div class="form-response"></div>
+				</form> -->
 			</div>
 		</div>
 	</div>
