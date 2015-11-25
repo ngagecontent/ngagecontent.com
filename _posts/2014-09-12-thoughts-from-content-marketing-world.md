@@ -8,6 +8,11 @@ image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/
 author: mike_cottrill
 comments: true
 shortUrl: http://buff.ly/1Odwy26
+related: [
+    "Focus on creating content that matters to your audience",
+    "8 Deep thoughts from Content Marketing World 2015",
+    "Five big content strategy ideas from Digital Summit Detroit"
+]
 
 ---
 

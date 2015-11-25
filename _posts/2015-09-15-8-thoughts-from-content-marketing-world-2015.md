@@ -10,7 +10,8 @@ comments: true
 shortUrl: http://buff.ly/1PxZ6q5
 related: [
     "Focus on creating content that matters to your audience",
-    "Seven thoughts from Content Marketing World 2014"
+    "Seven thoughts from Content Marketing World 2014",
+    "Five big content strategy ideas from Digital Summit Detroit"
 ]
 
 ---
