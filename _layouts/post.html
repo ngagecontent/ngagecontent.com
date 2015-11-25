@@ -92,10 +92,12 @@ layout: default
 					<ul class="posts">  
 					    {% for post in site.posts %}
 					        {% if page.related contains post.title %}
+					        {% if page.title != post.title %}
 					            <li class="navigation">  
 							   	<a href="{{ BASE_PATH }}{{ post.url }}"><img src="{{ post.image }}"></a>
 							   <a href="{{ BASE_PATH }}{{ post.url }}"  class="title">{{ post.title }}</a>  
 							   </li>
+							{% endif %}
 					        {% endif %}
 					    {% endfor %}
 				    </ul>
@@ -108,11 +110,12 @@ layout: default
 	<div class="section-block" style="padding-top: 0;">
 		<div class="row">
 			<div class="column width-12">
-				<h3 style="padding-bottom: 20px;">Related Posts</h3>
+				<h3 style="padding-bottom: 20px;" class="text-uppercase">Related Posts</h3>
 				<div class="row content-grid-3 masonry-grid clearfix">
 					{% for post in site.posts %}
 				        {% if page.related contains post.title %}
-				           <div class="grid-item grid-sizer">
+					        {% if page.title != post.title %}
+							<div class="grid-item grid-sizer">
 								<article class="post">
 									<div class="post-media">
 										<div class="thumbnail overlay-slide-in-left" data-hover-easing="swing">
@@ -130,17 +133,13 @@ layout: default
 									</div>
 									<div class="post-content with-background">
 										<h2 class="post-title text-uppercase" style="margin-bottom: 30px;"><a href="{{ post.url }}">{{post.title}}</a></h2>
-										<!-- <div class="post-info">
-											{% assign author = site.data.authors %}
-											<span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-										</div> -->
-										<!-- <p class="post-teaser">{{ post.teaser | truncatewords:15  }}</p> -->
 										<div class="post-read-more">
 											<a href="{{ post.url }}" class="button bkg-charcoal bkg-hover-charcoal color-white color-hover-white read-more">Read Post</a>
 										</div>
 									</div>
 								</article>
 							</div>
+							{% endif %}
 				        {% endif %}
 				    {% endfor %}
 				</div>
@@ -149,3 +148,14 @@ layout: default
 	</div>
 	{% endif %}
 </div>
+<script type="text/javascript">
+	$(function(e) {
+	  $(".tweet-quote").click(function() {
+	      var tweetText = encodeURI('"' + $(this).text() + '"');
+	      var href = "https://twitter.com/intent/tweet?text=" + tweetText +
+	          "&url={{ page.shortUrl }}&via=NgageContent";
+
+	      window.open(href, 'child', 'scrollbars,width=650,height=500');
+	  });
+	});
+  </script>
