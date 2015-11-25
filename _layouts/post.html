@@ -14,7 +14,7 @@ layout: default
 						<div class="column width-12">
 							<h1 class="horizon letter-spaced weight-bold color-white no-margin-bottom inline" 
 								data-animate-in="opacity:0;scale:1.5;duration:400ms;easing:swing;">
-								<span style="text-transform: uppercase;">{{ page.title }}</span>
+								<span class="text-uppercase">{{ page.title }}</span>
 							</h1>
 							<div class="clear"></div>
 							<span class="horizon text-medium letter-spaced weight-light color-white no-margin-bottom" 
@@ -73,7 +73,7 @@ layout: default
 		<aside class="column width-4 push-1 sidebar">
 			<div class="sidebar-inner">
 				<div class="widget">
-					<h3 class="widget-title">Recent Posts</h3>
+					<h3 class="widget-title text-uppercase">Recent Posts</h3>
 					<ul class="posts ">  
 						{% for post in site.posts limit:4 %}  
 						   <li class="navigation">  
@@ -88,7 +88,7 @@ layout: default
 				</div>
 				{% if content and page.related %}
 				<div class="widget related">
-					<h3 class="widget-title">Related Posts</h3>
+					<h3 class="widget-title text-uppercase">Related Posts</h3>
 					<ul class="posts">  
 					    {% for post in site.posts %}
 					        {% if page.related contains post.title %}
@@ -129,9 +129,14 @@ layout: default
 										</div>
 									</div>
 									<div class="post-content with-background">
-										<h3 class="related-post-title"><a href="{{ post.url }}">{{post.title}}</a></h3>
+										<h2 class="post-title text-uppercase" style="margin-bottom: 30px;"><a href="{{ post.url }}">{{post.title}}</a></h2>
+										<!-- <div class="post-info">
+											{% assign author = site.data.authors %}
+											<span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+										</div> -->
+										<!-- <p class="post-teaser">{{ post.teaser | truncatewords:15  }}</p> -->
 										<div class="post-read-more">
-											<a href="{{ post.url }}" class="button bkg-charcoal bkg-hover-charcoal color-white color-hover-white read-more" style="margin-top: 20px;">Read Post</a>
+											<a href="{{ post.url }}" class="button bkg-charcoal bkg-hover-charcoal color-white color-hover-white read-more">Read Post</a>
 										</div>
 									</div>
 								</article>
