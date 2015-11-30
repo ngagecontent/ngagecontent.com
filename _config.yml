@@ -19,6 +19,8 @@ links:
     url: /subscribe
   - title: Contact
     url: /contact
+  - title: RSS Feed
+    url: /feed.xml
 
 # Google analytics
 google_analytics:   UA-62439730-1
