@@ -25,7 +25,7 @@ $( document ).ready( function(){
 	var headerNavShow = '.navigation-show';
 
 	// Retinize
-	var retinizeSelectors = '#bkg-retina-img, #retina-img, [data-2x]';
+	// var retinizeSelectors = '#bkg-retina-img, #retina-img, [data-2x]';
 
 	// Equalize
 	var equalizeContainer = '.equalize';
