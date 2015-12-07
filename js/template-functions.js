@@ -362,7 +362,7 @@ $( document ).ready( function(){
 				fullwidth: true,
 				navArrows: false,
 				navPagination: true,
-				retinaSupport: true
+				retinaSupport: false
 			});
 		},
 		testimonialSlider: function(){
