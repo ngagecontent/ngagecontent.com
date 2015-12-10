@@ -15,6 +15,8 @@ links:
     url: /
   - title: Blog
     url: /blog
+  - title: Events
+    url: /events
   - title: Subscribe
     url: /subscribe
   - title: Contact
@@ -31,4 +33,4 @@ social:
   facebook: https://www.facebook.com/ngagecontent
   linkedin: https://www.linkedin.com/company/ngagecontent
   google_plus: https://plus.google.com/u/0/b/109715903752747703433/109715903752747703433/about/p/pub
-  instagram: 
+  instagram:

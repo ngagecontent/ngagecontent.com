@@ -12,16 +12,16 @@ layout: default
 			<div class="tmp-content-inner left">
 				<div class="row">
 					<div class="column width-12">
-						<h1 class="horizon letter-spaced weight-bold color-white no-margin-bottom inline" 
+						<h1 class="horizon letter-spaced weight-bold color-white no-margin-bottom inline text-uppercase" 
 								data-animate-in="opacity:0;scale:1.5;duration:400ms;easing:swing;">
 							BLOG
 						</h1>
 						<div class="clear"></div>
-						<span class="horizon text-medium letter-spaced weight-light color-white no-margin-bottom" 
+						<span class="horizon text-medium letter-spaced weight-light color-white no-margin-bottom"
 								data-animate-in="opacity:0;transY:30px;duration:400ms;delay:200ms;easing:swing;" style="text-transform: uppercase;">
 							NgageContent’s Marketing Strategy Blog
 						</span>
-						{% include featured-media-signup.html %} 
+						{% include featured-media-signup.html %}
 					</div>
 				</div>
 			</div>
@@ -35,7 +35,7 @@ layout: default
 		<div class="column width-12">
 			<div class="row content-grid-4 masonry-grid clearfix">
 				{% for post in site.posts %}
-				{% include post-list.html %} 
+				{% include post-list.html %}
 				{% endfor %}
 			</div>
 		</div>
@@ -43,5 +43,3 @@ layout: default
 </div>
 <!-- Content Section End -->
 </div>
-
-
