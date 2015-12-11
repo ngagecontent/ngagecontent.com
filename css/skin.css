@@ -40,11 +40,11 @@ html, body {
 }
 
 body,
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6,
 .navigation ul li a,
 .overlay-navigation ul li a{
@@ -61,7 +61,7 @@ h6,
 
 
 /* Headings and Links */
-a, 
+a,
 p a,
 .box a:not(.button){
 	color: #2fb3b8;
@@ -116,7 +116,7 @@ h5 {
 }
 h6 {
 	font-size: 1.4rem;
-	
+
 }
 
 p,
@@ -158,11 +158,11 @@ li{
 [2. Background Color Classes]
 */
 .bkg-charcoal{
-	background-color: #333; 
+	background-color: #333;
 	border-color: #333;
 }
 .bkg-hover-charcoal:hover{
-	background-color: #000; 
+	background-color: #000;
 	border-color: #000;
 }
 
@@ -256,13 +256,13 @@ li{
 }
 
 /* Navigation - Hover Colors */
-.header a:hover.navigation-show a:hover, 
-.header .navigation > ul > li > a:hover, 
+.header a:hover.navigation-show a:hover,
+.header .navigation > ul > li > a:hover,
 .header .overlay-navigation > ul > li > a:hover{
 	color: #fff;
 	opacity: 0.6;
 }
-.nav-dark .navigation-show a:hover, 
+.nav-dark .navigation-show a:hover,
 .nav-dark .navigation > ul > li > a:hover{
 	color: #333;
 	opacity: 0.6;
@@ -279,10 +279,10 @@ li{
 	color: #fff;
 	border-bottom: none;
 }
-.header-background .navigation-show a:hover, 
-.header-background .navigation > ul > li > a:hover, 
+.header-background .navigation-show a:hover,
+.header-background .navigation > ul > li > a:hover,
 .header-background .overlay-navigation > ul > li > a:hover,
-.nav-dark .header-background .navigation-show a:hover, 
+.nav-dark .header-background .navigation-show a:hover,
 .nav-dark .header-background .navigation > ul > li > a:hover{
 	color: #fff;
 	opacity: 1;
@@ -298,7 +298,7 @@ li{
 
 /* Header mobile & breakpoint colors */
 @media only screen and (max-width: 960px){
-	.header, 
+	.header,
 	.header .header-inner{
 		background: #232323;
 	}
@@ -422,7 +422,7 @@ li{
 	color: #333;
 }
 .team-3 .tms-bullet-nav{
-	background: #333; 
+	background: #333;
 }
 .team-3 .team-slider .tms-pagination{
 	text-align: left;
@@ -470,9 +470,9 @@ li{
 	}
 	.hero-5-contact h1,
 	.hero-5-contact h2,
-	.hero-5-contact h3, 
-	.hero-5-contact h4, 
-	.hero-5-contact h5, 
+	.hero-5-contact h3,
+	.hero-5-contact h4,
+	.hero-5-contact h5,
 	.hero-5-contact h6{
 		color: #333;
 	}
@@ -657,8 +657,8 @@ only screen and (   min--moz-device-pixel-ratio: 2),
 only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (		 min-device-pixel-ratio: 2),
 only screen and (			min-resolution: 192dpi),
-only screen and (				min-resolution: 2dppx) { 
-	
+only screen and (				min-resolution: 2dppx) {
+
 	/* Fullscreen Pages */
 	.error-404 .background-image,
 	.error-500 .background-image,{
@@ -786,7 +786,7 @@ textarea.required-field:focus{
 	border-bottom: 0.4rem solid #fff;
 	border-radius: 0;
 }
-.fullscreen-section .form-element:focus, 
+.fullscreen-section .form-element:focus,
 .fullscreen-section textarea:focus{
 	background: none;
 	color: #fff;
@@ -806,11 +806,11 @@ textarea.required-field:focus{
 [16. Social Lists]
 */
 .bkg-charcoal{
-	background-color: #333; 
+	background-color: #333;
 	border-color: #333;
 }
 .bkg-hover-charcoal:hover{
-	background-color: #000; 
+	background-color: #000;
 	border-color: #000;
 }
 
@@ -843,7 +843,7 @@ ul.social-list {
 	color: #333;
 }
 .overlay-navigation-footer .social-list a,
-.footer-1 .social-list a, 
+.footer-1 .social-list a,
 .fullscreen-section footer .social-list a{
 	margin-left: 0;
 	font-size: 1.4rem;
@@ -1004,7 +1004,7 @@ a.action-buy:hover{
     right: -20px;
     position: absolute;
     z-index: -1;
-    x-overflow: hidden;   
+    x-overflow: hidden;
 }
 
 .post-content span .tweet-quote {
@@ -1454,4 +1454,34 @@ pre {
     transform: translate3d(0px, 0px, 0px) rotate3d(1, 0, 0, 0deg) rotate3d(0, 1, 0, 0deg) rotate3d(0, 0, 1, 0deg) scale3d(1, 1, 1);
     opacity: 1;
     visibility: visible;
+}
+
+div.event-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+div.event-box:hover {
+    cursor: hand;
+    cursor: pointer;
+}
+
+a.event-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    /* Makes sure the link doesn't get underlined */
+    z-index: 10;
+    /* raises anchor tag above everything else in div */
+    background-color: white;
+    /*workaround to make clickable in IE */
+    opacity: 0;
+    /*workaround to make clickable in IE */
+    filter: alpha(opacity=0);
+    /*workaround to make clickable in IE */
 }
