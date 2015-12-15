@@ -12,19 +12,19 @@ layout: default
 				<div class="tmp-content-inner left">
 					<div class="row">
 						<div class="column width-12">
-							<h1 class="horizon letter-spaced weight-bold color-white no-margin-bottom inline" 
+							<h1 class="horizon letter-spaced weight-bold color-white no-margin-bottom inline"
 								data-animate-in="opacity:0;scale:1.5;duration:400ms;easing:swing;">
 								<span class="text-uppercase">{{ page.title }}</span>
 							</h1>
 							<div class="clear"></div>
-							<span class="horizon text-medium letter-spaced weight-light color-white no-margin-bottom" 
+							<span class="horizon text-medium letter-spaced weight-light color-white no-margin-bottom"
 								data-animate-in="opacity:0;transY:30px;duration:400ms;delay:200ms;easing:swing;">
 								{% assign author = site.data.authors[page.author] %}
 								{% if author %}
 				                <span style="text-transform: uppercase;">By {{ author.name }} on {{ page.date | date: "%b %-d, %Y"}}</span>
 				            	{% endif %}
 							</span>
-							{% include featured-media-signup.html %} 
+							{% include featured-media-signup.html %}
 						</div>
 					</div>
 				</div>
@@ -49,8 +49,9 @@ layout: default
 					{{ content }}
 				</div>
 			</article>
-
+			{% include social-share.html%}
 			{% include signup-block.html %}
+
 
 			<!-- Post Author -->
 			{% if author %}
@@ -74,28 +75,28 @@ layout: default
 			<div class="sidebar-inner">
 				<div class="widget">
 					<h3 class="widget-title text-uppercase">Recent Posts</h3>
-					<ul class="posts ">  
-						{% for post in site.posts limit:4 %}  
-						   <li class="navigation">  
+					<ul class="posts ">
+						{% for post in site.posts limit:4 %}
+						   <li class="navigation">
 						   	<a href="{{ BASE_PATH }}{{ post.url }}"><img src="{{ post.image }}"></a>
-						   <a href="{{ BASE_PATH }}{{ post.url }}"  class="title">{{ post.title }}</a>  
-						   </li>  
-						{% endfor %}  
+						   <a href="{{ BASE_PATH }}{{ post.url }}"  class="title">{{ post.title }}</a>
+						   </li>
+						{% endfor %}
 					</ul>
 				</div>
-				<div class="widget signup"> 
+				<div class="widget signup">
 				   	{% include signup-widget.html %}
 				</div>
 				{% if content and page.related %}
 				<div class="widget related">
 					<h3 class="widget-title text-uppercase">Related Posts</h3>
-					<ul class="posts">  
+					<ul class="posts">
 					    {% for post in site.posts %}
 					        {% if page.related contains post.title %}
 					        {% if page.title != post.title %}
-					            <li class="navigation">  
+					            <li class="navigation">
 							   	<a href="{{ BASE_PATH }}{{ post.url }}"><img src="{{ post.image }}"></a>
-							   <a href="{{ BASE_PATH }}{{ post.url }}"  class="title">{{ post.title }}</a>  
+							   <a href="{{ BASE_PATH }}{{ post.url }}"  class="title">{{ post.title }}</a>
 							   </li>
 							{% endif %}
 					        {% endif %}
