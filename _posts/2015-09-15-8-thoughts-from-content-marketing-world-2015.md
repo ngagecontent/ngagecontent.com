@@ -2,6 +2,7 @@
 
 layout: post
 title: 8 Deep thoughts from Content Marketing World 2015
+keyword: content marketing world
 date:   2015-09-15 12:00:00
 teaser: Here are eight unique and interesting thoughts from Content Marketing World 2015
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/cmworld-2015.jpg

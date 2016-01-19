@@ -2,6 +2,7 @@
 
 layout: post
 title: Five big content strategy ideas from Digital Summit Detroit
+keyword: digital summit Detroit
 date: 2015-09-28 12:01:00
 teaser: The Best Place to Hide a Dead Body is Page 2 of Google Search Results.
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/digital-summit-detroit.jpg

@@ -2,6 +2,7 @@
 
 layout: post
 title: Why proofreading is important for blog posts
+keyword: proofreading your blog
 date: 2015-09-04 12:00:00
 teaser: Weve all red a sentense like this 1. Your editorial conscience subsequently cringes...and you promptly shift your readership elsewhere.
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/why-proofreading-is-important.jpg
