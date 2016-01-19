@@ -2,23 +2,25 @@
 
 layout: post
 title: Better blogging through better images&#58; finding stock photos for your blog
-keyword: sourcing images for your blog
+keyword: finding images for your blog
 date: 2015-10-22 12:00:00
 teaser: The application of the "picture's worth a thousand words" mantra is seemingly endless for your business blog.
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/better-blogging-through-better-images.jpg
 author: matt_bixenstine
 comments: true
 shortUrl: http://buff.ly/1j5nhOj
+tags:
+ - blog-production
 
 ---
 
 There're two ways we can go about this.
 
-I can tell you about a serene wilderness retreat tucked into the foothills of Ohio Appalachia. An arched stone bridge is perched above a waterfall cascading through a gorge into an aqua pool of tranquility as specs of colorful fall foliage surround jagged rock ledges. 
+I can tell you about a serene wilderness retreat tucked into the foothills of Ohio Appalachia. An arched stone bridge is perched above a waterfall cascading through a gorge into an aqua pool of tranquility as specs of colorful fall foliage surround jagged rock ledges.
 
 Or you can simply admire the above image, letting your own mind paint a description that's as vivid as it is original.
 
-Like a waterfall's gush, the application of the "picture's worth a thousand words" mantra is seemingly endless when it comes to your business blog. A [visually-stimulating content marketing campaign](/2015/09/17/7-best-practices-for-your-business-blog/) captivates your target audience, caters to their strongest sensory receptors, incites emotion and prompts buyer action in a manner that's unparalleled by standalone text. 
+Like a waterfall's gush, the application of the "picture's worth a thousand words" mantra is seemingly endless when it comes to your business blog. A [visually-stimulating content marketing campaign](/2015/09/17/7-best-practices-for-your-business-blog/) captivates your target audience, caters to their strongest sensory receptors, incites emotion and prompts buyer action in a manner that's unparalleled by standalone text.
 
 When you embark upon consuming a piece of text that's void of images, the task of reading feels overwhelming. The authoring content marketer has done you a disservice, and you're likely inclined to gloss over the text or skip reading altogether.
 
@@ -38,13 +40,13 @@ Our beginner's guide to stock photos simplifies the process of securing high-qua
 
 ### Have an Idea of What You're Seeking
 
-As with most decision-making processes, it behooves you not to go in blind. You may not be able to visualize exactly what your ideal blog image looks like, but  it helps to have a basic idea, since most stock photo sites offer keyword searches. 
+As with most decision-making processes, it behooves you not to go in blind. You may not be able to visualize exactly what your ideal blog image looks like, but  it helps to have a basic idea, since most stock photo sites offer keyword searches.
 
-If your B2B blog pertains to mixing business with leisure during travel, perhaps you enter search mode seeking a visual depicting an employee on the beach with a laptop or a business traveler in an airport sporting both a briefcase and a pair of skis. This level of specification converts your needle to a hay-baling shovel within the virtual haystack that is the Internet. 
+If your B2B blog pertains to mixing business with leisure during travel, perhaps you enter search mode seeking a visual depicting an employee on the beach with a laptop or a business traveler in an airport sporting both a briefcase and a pair of skis. This level of specification converts your needle to a hay-baling shovel within the virtual haystack that is the Internet.
 
 <span><a class="tweet-quote">Put your creative mind to use when choosing a visual to accompany your content.</a></span>
 
-### Combine Relevancy with Effectiveness 
+### Combine Relevancy with Effectiveness
 
 An appropriate image selection should be applicable to your blog's content yet compelling enough to catch your reader's eye. Striking this optimal balance can prove difficult, and it's not uncommon to sacrifice a minor degree of relevancy in order to utilize a particularly effective image.
 
@@ -65,7 +67,7 @@ When you're not able to ascertain the status of a particular image, proceed with
 
 Visual variety is key to maximizing the enhancement images can bring to your business blog. Even if you start by using standard photos, you should eventually graduate to incorporating visual stats and infographics that convey quantitative information to your readers in a more meaningful and easily understood manner.
 
-A diverse array of images can also increase your blog's engagement with your readership. Photo quotes -- quotations or inspirational messages with a photographic background -- and symbolic icons represent two of the most socially shareable types of visuals. Create unique visual elements and be delighted when your readers like, post, share and Retweet your blog. 
+A diverse array of images can also increase your blog's engagement with your readership. Photo quotes -- quotations or inspirational messages with a photographic background -- and symbolic icons represent two of the most socially shareable types of visuals. Create unique visual elements and be delighted when your readers like, post, share and Retweet your blog.
 
 ### Free Stock Photo Sites
 
@@ -85,7 +87,7 @@ You can maximize the utility of a free photo site by having a hunch of what you'
 
 While "free" is certainly the best price, you often get what you pay for in the world of stock photography. By paying for your stock photos, you generally get higher-quality images (resolution matters!), better selection and enhanced site searchability. After all, paid sites can offer photographers better commission rates, thereby increasing both the quantity and quality of image submissions they receive.
 
-But paying for photos doesn't necessitate taking out a personal loan. Many desirable stock photos can be had for one dollar or less, with cost-per-image rates reduced when you purchase a stock photo subscription service. The value a splashy photo can offer for increasing blog visibility often justifies paying a nominal rate for use of that image -- especially when you intend to push that blog post across various platforms such as Web, email and social media sites. 
+But paying for photos doesn't necessitate taking out a personal loan. Many desirable stock photos can be had for one dollar or less, with cost-per-image rates reduced when you purchase a stock photo subscription service. The value a splashy photo can offer for increasing blog visibility often justifies paying a nominal rate for use of that image -- especially when you intend to push that blog post across various platforms such as Web, email and social media sites.
 
 #### Our five favorite paid stock photo sites:
 

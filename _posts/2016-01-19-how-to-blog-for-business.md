@@ -9,6 +9,8 @@ image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/
 author: matt_bixenstine
 comments: true
 shortUrl: http://buff.ly/1S1Za15
+tags:
+ - blog-pre
 
 ---
 

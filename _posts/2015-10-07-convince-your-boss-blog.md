@@ -9,6 +9,8 @@ image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/
 author: matt_bixenstine
 comments: true
 shortUrl: http://buff.ly/1S1yOdJ
+tags:
+ - content-marketing
 
 ---
 
@@ -69,16 +71,16 @@ The combination of increased sales opportunities and decreased costs should enti
 
 Sometimes it seems like a boss's core job function is playing an eternal role as devil's advocate. You've developed a strategy, offered a trial run and shown ROI possibilities...yet your boss still has doubts.
 
-Here's where your ability to predict your boss's objections will come in handy. Have an answer ready for each curve ball your boss tosses back at you. 
+Here's where your ability to predict your boss's objections will come in handy. Have an answer ready for each curve ball your boss tosses back at you.
 
-Too expensive? The initial cost will come from the existing outbound marketing budget. Not enough employee resources? You've constructed [an editorial calendar that utilizes only a small portion of each employee's time](http://blog.beegit.com/content_strategy/2015/04/01/how-to-build-and-manage-distributed-writing-team/). Operate in an industry too boring for producing original content? With a proper content marketing plan, you can educate and entertain prospective customers within nearly any B2B or B2C industry. 
+Too expensive? The initial cost will come from the existing outbound marketing budget. Not enough employee resources? You've constructed [an editorial calendar that utilizes only a small portion of each employee's time](http://blog.beegit.com/content_strategy/2015/04/01/how-to-build-and-manage-distributed-writing-team/). Operate in an industry too boring for producing original content? With a proper content marketing plan, you can educate and entertain prospective customers within nearly any B2B or B2C industry.
 
 ### If All Else Fails, Plant a Seed
 
-No matter what you do, there's always a chance the answer is simply "no." It's just not in the cards. Even R.H. Macy failed seven times before his store in New York City caught on. 
+No matter what you do, there's always a chance the answer is simply "no." It's just not in the cards. Even R.H. Macy failed seven times before his store in New York City caught on.
 
 When this outcome occurs, don't be discouraged. Rather, view it as an opportunity. Plant a seed within your boss's idea sphere and revisit the concept at a later date. Have your proposal readily available for when the topic of content marketing inevitably reemerges.
 
 Situations change, and so too might your boss's point-of-view. Your company's marketing budget may increase next year, or shifting customer trends may prompt your boss to reconsider. Seeing that <a href="http://www.thedrum.com/news/2013/08/20/infographic-78-cmos-think-custom-content-future-marketing" target="_blank">78 percent of CMOs think content is the future of marketing</a>, your boss may simply change his/her mind after reassessing the marketplace.
 
-But for now, get in your boss's office and pitch away. With any luck, a content marketing journey awaits your company. Just be grateful it doesn't involve traversing the Atlantic Ocean on the Santa María. 
+But for now, get in your boss's office and pitch away. With any luck, a content marketing journey awaits your company. Just be grateful it doesn't involve traversing the Atlantic Ocean on the Santa María.

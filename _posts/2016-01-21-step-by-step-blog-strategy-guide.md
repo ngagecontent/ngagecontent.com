@@ -9,6 +9,8 @@ image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/
 author: mike_cottrill
 comments: true
 shortUrl: http://buff.ly/1P2ZxHQ
+tags:
+ - blog-pre
 
 ---
 

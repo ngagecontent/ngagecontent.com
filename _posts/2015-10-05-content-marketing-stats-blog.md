@@ -4,11 +4,13 @@ layout: post
 title: 25 Content marketing stats that will blow your mind [Infographic]
 keyword: content marketing statistics
 date:   2015-10-05 12:00:00
-teaser: Did you know that B2B Marketers with a content strategy are nearly 300 percent more likely to be effective? Geek out on that and other content marketing stats. 
+teaser: Did you know that B2B Marketers with a content strategy are nearly 300 percent more likely to be effective? Geek out on that and other content marketing stats.
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/25-content-marketing-stats.jpg
 author: matt_bixenstine
 comments: true
 shortUrl: http://buff.ly/1PxZfK4
+tags:
+ - content-marketing
 
 ---
 
@@ -26,7 +28,7 @@ The value of numerical data cannot be overstated as it pertains to content marke
 
 When applied appropriately, statistics provide not only insight regarding current trends but also predictability of what may happen in the future. If you could have foreseen the rise of content marketing at the start of the new millennium, your marketing plan may have evolved differently over the last 15 years.
 
-What follows are 25 content marketing stats that make us feel like an eager puppy dropped for the first time into the canine heaven that is a dog park. We've categorized these stats for better organization, since average Americans spend one year of their life looking for lost or misplaced items (one stat down, 25 more to go). 
+What follows are 25 content marketing stats that make us feel like an eager puppy dropped for the first time into the canine heaven that is a dog park. We've categorized these stats for better organization, since average Americans spend one year of their life looking for lost or misplaced items (one stat down, 25 more to go).
 
 Pretend you were never in danger of failing that college statistics course back in the day, and analyze what the following numbers mean from the standpoint of your content marketing plan and objectives. Go ahead and geek out.
 
@@ -43,7 +45,7 @@ Pretend you were never in danger of failing that college statistics course back 
 6. <a class="tweet-quote">B2B Marketers with a content strategy are nearly 300 percent more likely to be effective.</a> (Content Marketing Institute)
 7. Despite the growth of content marketing, <a class="tweet-quote">54 percent of brands don't have an on-site, dedicated content director.</a> (NewsCred)
 8. <a class="tweet-quote">Inefficiency in content production results in an estimated $958M each year in excessive spend</a> for mid-to-large B2B U.S. companies. (Kapost)
-9. <a class="tweet-quote">Only 44 percent of B2B marketers have a documented content strategy.</a> (Content Marketing Institute) 
+9. <a class="tweet-quote">Only 44 percent of B2B marketers have a documented content strategy.</a> (Content Marketing Institute)
 10. <a class="tweet-quote">67 percent of marketers believe there's room for improvement in content creation processes.</a> (Kapost)
 
 ### Content Marketing Best Practices are Emerging
@@ -60,11 +62,11 @@ Pretend you were never in danger of failing that college statistics course back 
 17. <a class="tweet-quote">B2B companies that blog generate 67 percent more leads per month than those that don't.</a> (Social Media B2B)
 18. <a class="tweet-quote">Inbound marketing costs 62 percent less per lead than traditional outbound marketing.</a> (Mashable)
 19. <a class="tweet-quote">Brands that create 15 blog posts per month average 1,200 new leads per month.</a> (HubSpot)
-20. <a class="tweet-quote">Marketers that measure ROI are 17 times more likely to generate the same or greater ROI</a> compared with the previous year. (HubSpot) 
+20. <a class="tweet-quote">Marketers that measure ROI are 17 times more likely to generate the same or greater ROI</a> compared with the previous year. (HubSpot)
 
 ### What Does the Future of Content Marketing Behold?
 
-21. <a class="tweet-quote">57 percent of organizations now have two or more people dedicated to content marketing.</a> (Contently) 
+21. <a class="tweet-quote">57 percent of organizations now have two or more people dedicated to content marketing.</a> (Contently)
 22. <a class="tweet-quote">Marketers are forecasted to spend $8.2 billion on mobile marketing by 2016.</a> (Forrester Research)
 23. <a class="tweet-quote">By 2017, online video will make up nearly 70 percent of consumer Internet traffic.</a> (Cisco)
 24. <a class="tweet-quote">78 percent of CMOs think content is the future of marketing.</a> (Demand Metric)

@@ -76,7 +76,7 @@ layout: default
 				<div class="widget">
 					<h3 class="widget-title text-uppercase">Recent Posts</h3>
 					<ul class="posts ">
-						{% for post in site.posts limit:4 %}
+						{% for post in site.posts limit:5 %}
 						   <li class="navigation">
 						   	<a href="{{ BASE_PATH }}{{ post.url }}"><img src="{{ post.image }}"></a>
 						   <a href="{{ BASE_PATH }}{{ post.url }}"  class="title">{{ post.title }}</a>
@@ -87,68 +87,85 @@ layout: default
 				<div class="widget signup">
 				   	{% include signup-widget.html %}
 				</div>
-				{% if content and page.related %}
-				<div class="widget related">
-					<h3 class="widget-title text-uppercase">Related Posts</h3>
-					<ul class="posts">
-					    {% for post in site.posts %}
-					        {% if page.related contains post.title %}
-					        {% if page.title != post.title %}
-					            <li class="navigation">
-							   	<a href="{{ BASE_PATH }}{{ post.url }}"><img src="{{ post.image }}"></a>
-							   <a href="{{ BASE_PATH }}{{ post.url }}"  class="title">{{ post.title }}</a>
-							   </li>
-							{% endif %}
-					        {% endif %}
-					    {% endfor %}
+				{% assign hasSimilar = '' %}
+				{% for post in site.related_posts %}
+				    {% assign postHasSimilar = false %}
+				    {% for tag in post.tags %}
+				        {% for thisTag in page.tags %}
+				            {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
+				                {% if hasSimilar.size == 0 %}
+													<div class="widget related">
+														<h3 class="widget-title text-uppercase">Related Posts</h3>
+														<ul class="posts">
+														    {% endif %}
+										            <li class="navigation">
+												   	<a href="{{ BASE_PATH }}{{ post.url }}"><img src="{{ post.image }}"></a>
+												   <a href="{{ BASE_PATH }}{{ post.url }}"  class="title">{{ post.title }}</a>
+												   </li>
+													 {% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
+							 						{% assign postHasSimilar = true %}
+							 				{% endif %}
+							 		{% endfor %}
+							 {% endfor %}
+							 {% endfor %}
+							 {% if hasSimilar.size > 0 %}
+							 {% endif %}
 				    </ul>
 				</div>
-				{% endif %}
 			</div>
 		</aside>
 	</div>
-	{% if content and page.related %}
-	<div class="section-block" style="padding-top: 0;">
-		<div class="row">
-			<div class="column width-12">
-				<h3 style="padding-bottom: 20px;" class="text-uppercase">Related Posts</h3>
-				<div class="row content-grid-3 masonry-grid clearfix">
-					{% for post in site.posts %}
-				        {% if page.related contains post.title %}
-					        {% if page.title != post.title %}
-							<div class="grid-item grid-sizer">
-								<article class="post">
-									<div class="post-media">
-										<div class="thumbnail overlay-slide-in-left" data-hover-easing="swing">
-											<a class="overlay-link" href="{{ post.url }}">
-												<img src="{{ post.image }}" alt=""/>
-												<span class="overlay-info">
-													<span>
-														<span>
-															<span class="project-title">VIEW POST</span><br>
+{% assign hasSimilar = '' %}
+	{% for post in site.related_posts %}
+    {% assign postHasSimilar = false %}
+    	{% for tag in post.tags %}
+        {% for thisTag in page.tags %}
+            {% if postHasSimilar == false and hasSimilar.size < 6 and post != page and tag == thisTag %}
+                {% if hasSimilar.size == 0 %}
+								<div class="section-block" style="padding-top: 0;">
+									<div class="row">
+										<div class="column width-12">
+											<h3 style="padding-bottom: 20px;" class="text-uppercase">Related Posts</h3>
+											<div class="row content-grid-3 masonry-grid clearfix">
+	                {% endif %}
+									<div class="grid-item grid-sizer">
+										<article class="post">
+											<div class="post-media">
+												<div class="thumbnail overlay-slide-in-left" data-hover-easing="swing">
+													<a class="overlay-link" href="{{ post.url }}">
+														<img src="{{ post.image }}" alt=""/>
+														<span class="overlay-info">
+															<span>
+																<span>
+																	<span class="project-title">VIEW POST</span><br>
+																</span>
+															</span>
 														</span>
-													</span>
-												</span>
-											</a>
-										</div>
+													</a>
+												</div>
+											</div>
+											<div class="post-content with-background">
+												<h2 class="post-title text-uppercase" style="margin-bottom: 30px;"><a href="{{ post.url }}">{{post.title}}</a></h2>
+												<div class="post-read-more">
+													<a href="{{ post.url }}" class="button bkg-charcoal bkg-hover-charcoal color-white color-hover-white read-more">Read Post</a>
+												</div>
+											</div>
+										</article>
 									</div>
-									<div class="post-content with-background">
-										<h2 class="post-title text-uppercase" style="margin-bottom: 30px;"><a href="{{ post.url }}">{{post.title}}</a></h2>
-										<div class="post-read-more">
-											<a href="{{ post.url }}" class="button bkg-charcoal bkg-hover-charcoal color-white color-hover-white read-more">Read Post</a>
-										</div>
-									</div>
-								</article>
-							</div>
-							{% endif %}
-				        {% endif %}
-				    {% endfor %}
+                {% capture hasSimilar %}{{ hasSimilar }}*{% endcapture %}
+                {% assign postHasSimilar = true %}
+	            {% endif %}
+		        {% endfor %}
+			    {% endfor %}
+				{% endfor %}
+				{% if hasSimilar.size > 0 %}
+				{% endif %}
 				</div>
 			</div>
 		</div>
 	</div>
-	{% endif %}
 </div>
+
 <script type="text/javascript">
 	$(function(e) {
 	  $(".tweet-quote").click(function() {

@@ -9,11 +9,13 @@ image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/
 author: matt_bixenstine
 comments: true
 shortUrl: http://buff.ly/1HTaUR3
+tags:
+ - blog-production
 
 ---
 
 
-*Men Walk On Moon. Nixon Resigns. Titanic Sinks Four Hours After Hitting Iceberg. VE Day - It's All Over. Dewey Defeats Truman*. 
+*Men Walk On Moon. Nixon Resigns. Titanic Sinks Four Hours After Hitting Iceberg. VE Day - It's All Over. Dewey Defeats Truman*.
 
 A handful of headline writers throughout history have had it easy. A historical event, triumphant or tragic, rocks our world on their editorial watch and the ensuing iconic headline essentially writes itself.
 
@@ -27,14 +29,14 @@ Just how can [modern-day content marketers](/2015/04/01/how-to-build-and-manage-
 ### Never Underestimate the Power of a Strong First Impression
 
 > "On the average, five times as many people read the headline as read the body copy. When you have written your headline, you have spent eighty cents out of your dollar."
-> 
+>
 > -- David Ogilvy - "Father of Advertising"
 
-Imagine you're a realtor trying to sell a house. The foundation is solid and you've staged the interior brilliantly, highlighting the home's charm and emphasizing its square footage. Yet, despite all your efforts, you overlooked the front yard entirely. Curb appeal is altogether lacking and the absence of landscaping would make a fraternity house lawn look pristine. Think you'll even get one prospective buyer through the front door? 
+Imagine you're a realtor trying to sell a house. The foundation is solid and you've staged the interior brilliantly, highlighting the home's charm and emphasizing its square footage. Yet, despite all your efforts, you overlooked the front yard entirely. Curb appeal is altogether lacking and the absence of landscaping would make a fraternity house lawn look pristine. Think you'll even get one prospective buyer through the front door?
 
 All too often, writers labor over a blog post for days...then mistakenly just plug in a headline at the end as an afterthought. By then, the writer is sick of looking at the piece and simply wants it off his or her plate.
 
-<a class="tweet-quote">Devote ample time to writing your headline and make that first impression meaningful.</a> Consider adopting the 50/50 rule, whereby half your time is spent constructing an effective headline and lede, and the remainder is spent rounding out your blog. 
+<a class="tweet-quote">Devote ample time to writing your headline and make that first impression meaningful.</a> Consider adopting the 50/50 rule, whereby half your time is spent constructing an effective headline and lede, and the remainder is spent rounding out your blog.
 
 ### Pretend Print Space Limitations Still Exist
 
@@ -44,7 +46,7 @@ All too often, writers labor over a blog post for days...then mistakenly just pl
 
 Back in our journalistic heyday, space dictated headlines. A copy editor was limited to the available space, regardless of what the ideal headline might be. The city of Cleveland was named for expedition leader Moses Cleaveland, but the first "a" was dropped from the name after an early newspaper was plagued by space constraints.
 
-But even in today's [infinite digital universe](/2015/03/17/why-you-should-embrace-agile-content/), punchy, concise blog headlines work best, attracting more attention as well as proving more Tweetable and SEO-friendly. Get to the point quickly or your readership won't wait around to learn your (probably insightful) point. A good rule-of-thumb is to keep your headline 10 words or less (yes, this hypocritical post has an 11-word headline). 
+But even in today's [infinite digital universe](/2015/03/17/why-you-should-embrace-agile-content/), punchy, concise blog headlines work best, attracting more attention as well as proving more Tweetable and SEO-friendly. Get to the point quickly or your readership won't wait around to learn your (probably insightful) point. A good rule-of-thumb is to keep your headline 10 words or less (yes, this hypocritical post has an 11-word headline).
 
 ### Intrigue Your Audience
 
@@ -71,15 +73,15 @@ For many [content platforms](https://beegit.com), your blog post's headline doub
 So what types of keywords enhance clickability? Use positive keywords that engage your readers and offer a reward for reading. Examples include "How to Save for Retirement without Sacrificing Travel Bliss" and "New Best Friend: 5 Tips for Selecting Your Canine Companion."
 
 Keep in mind that effective keyword headlines answer questions for your audience. They will be searching online for how to do something or why they need something. Your headline should answer that question with the right keywords -- and then your content must support the headline's claim.
- 
+
 
 ### Accuracy Still Matters
 
 > "It takes a lot of effort to win back credibility after having lost it so heavily."
-> 
+>
 > -- Italian politician Giorgio Napolitano
 
-Go back and read the last headline contained within the first paragraph: *Dewey Defeats Truman*. Remember this infamous headline, published on the front page of the Chicago Daily Tribune in November of 1948? The combination of an early press deadline and a surprising election outcome resulted in a legendary mistake for the newspaper, which President Harry Truman immortalized in a [memorable photograph](http://deweydefeatstruman.com/). 
+Go back and read the last headline contained within the first paragraph: *Dewey Defeats Truman*. Remember this infamous headline, published on the front page of the Chicago Daily Tribune in November of 1948? The combination of an early press deadline and a surprising election outcome resulted in a legendary mistake for the newspaper, which President Harry Truman immortalized in a [memorable photograph](http://deweydefeatstruman.com/).
 
 <span><a class="tweet-quote">Embarking on a blog-inspired content mission? Start by crafting a powerful headline.</a></span>
 
