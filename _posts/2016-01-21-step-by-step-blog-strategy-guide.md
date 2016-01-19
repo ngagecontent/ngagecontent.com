@@ -8,7 +8,7 @@ teaser: Everybody blogs. Or, at least, it seems every business blogs. But doing 
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/step-by-step-blog-strategy-guide.jpg
 author: mike_cottrill
 comments: true
-shortUrl: http://buff.ly/1WpjQ3C
+shortUrl: http://buff.ly/1P2ZxHQ
 
 ---
 
