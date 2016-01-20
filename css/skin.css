@@ -1011,23 +1011,22 @@ a.action-buy:hover{
 	color: #55acee;
 	display: block !important;
 	margin: 60px auto !important;
-	width: 85% !important;
-	font: italic 300 22px/28px "Open Sans", sans-serif !important;
+	width: 90% !important;
+	font: italic 200 24px/32px "Open Sans", sans-serif !important;
 	text-align: center;
 	text-decoration: none;
-	border: 1px solid #55acee;
+	border: 0;
 	padding: 20px 35px;
 }
 
 .post-content span .tweet-quote:hover {
-	border: 1px solid #2a7abf;
+	border: 0;
 	-webkit-transition: color 0.3s;
-	background-color: #2a7abf;
-	color: #ffffff;
+	color: #333333;
 }
 
 .post-content .tweet-quote:hover {
-  color: #2a7abf;
+  color: #55acee;
 }
 
 .post-content .tweet-quote:after {
@@ -1046,7 +1045,7 @@ a.action-buy:hover{
 
 .post-content .tweet-quote:hover {
   color: #2a7abf;
-  border-bottom: 1px solid #2a7abf;
+  border-bottom: 1px solid #55acee;
 }
 
 .tmp-content-inner h1 {
@@ -1485,4 +1484,10 @@ a.event-link {
     /*workaround to make clickable in IE */
     filter: alpha(opacity=0);
     /*workaround to make clickable in IE */
+}
+
+@media only screen and (max-width: 768px){
+	.section-block.related-posts-footer {
+    display: none;
+  }
 }

@@ -1,0 +1,48 @@
+{% assign post = page %}
+{% if post.tags.size > 0 %}
+<div class="section-block content-inner blog-masonry large-margins related-posts-footer">
+ <div class="row">
+   <div class="column width-12">
+     <h4 style="padding: 0 15px 15px 15px;" class="text-uppercase">Related Posts</h4>
+     <div class="row content-grid-3 masonry-grid clearfix">
+        {% assign posts = site.posts | sort: 'title' %}
+        {% for post in posts %}
+          {% assign isAdded = false %}
+          {% for tagAll in post.tags %}
+            {% for tag in page.tags %}
+              {% if tagAll == tag and page.title != post.title and isAdded == false %}
+                <div class="grid-item grid-sizer">
+                 <article class="post">
+                   <div class="post-media">
+                     <div class="thumbnail overlay-slide-in-left" data-hover-easing="swing">
+                       <a class="overlay-link" href="{{ post.url }}">
+                         <img src="{{ post.image }}" alt=""/>
+                         <span class="overlay-info">
+                           <span>
+                             <span>
+                               <span class="project-title">VIEW POST</span><br>
+                             </span>
+                           </span>
+                         </span>
+                       </a>
+                     </div>
+                   </div>
+                   <div class="post-content with-background">
+                     <h2 class="post-title text-uppercase"><a href="{{ post.url }}">{{post.title}}</a></h2>
+                     <p class="post-teaser">{{ post.teaser | truncatewords:15  }}</p>
+                     <div class="post-read-more">
+                       <a href="{{ post.url }}" class="button bkg-charcoal bkg-hover-charcoal color-white color-hover-white read-more">Read Post</a>
+                     </div>
+                   </div>
+                 </article>
+                </div>
+                {% assign isAdded = true %}
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
