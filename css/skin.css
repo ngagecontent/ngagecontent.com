@@ -129,15 +129,33 @@ li{
     margin-top: 35px;
     margin-bottom: 35px;
 }
+
+p.source {
+	text-align: center;
+	padding-top: 30px;
+	font-size: 12px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.section-block h2, .section-block h4 {
+	font-family: 'Montserrat', 'Helvetica Neue', Arial, serif;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 700;
+	letter-spacing: -0.015em;
+}
+
 [class*="hero-"] p,
 .lead{
 	font-size: 2.2rem;
 	line-height: 1.8;
 	font-weight: 400;
     -webkit-font-smoothing: antialiased;
-    color: #999999;
+    color: #8ea1a5;
 }
-.masonry-grid .grid-item h2{
+.masonry-grid .grid-item h2, .post-title{
 	font-size: 2rem;
 	margin-bottom: 0.6rem;
 	line-height: 1.1;
@@ -157,13 +175,9 @@ li{
 /*------------------------------------------------------------------
 [2. Background Color Classes]
 */
-.bkg-charcoal{
-	background-color: #333;
-	border-color: #333;
-}
-.bkg-hover-charcoal:hover{
-	background-color: #000;
-	border-color: #000;
+
+.bkg-turquoise p.lead {
+	color: #fff;
 }
 
 /*------------------------------------------------------------------
@@ -805,14 +819,6 @@ textarea.required-field:focus{
 /*------------------------------------------------------------------
 [16. Social Lists]
 */
-.bkg-charcoal{
-	background-color: #333;
-	border-color: #333;
-}
-.bkg-hover-charcoal:hover{
-	background-color: #000;
-	border-color: #000;
-}
 
 ul.social-list {
 	margin-left: 0;
@@ -1050,6 +1056,7 @@ a.action-buy:hover{
 
 .tmp-content-inner h1 {
 	font-family: 'Montserrat', 'Helvetica Neue', Arial, serif;
+	letter-spacing: -0.015em;
 }
 
 @media only screen and (max-width: 768px){

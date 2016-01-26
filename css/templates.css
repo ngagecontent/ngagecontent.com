@@ -3778,7 +3778,9 @@ only screen and (				min-resolution: 2dppx) {
 	margin-bottom: 0.5rem;
 	font-size: 7rem;
 	line-height: 1;
-	font-weight: bold;
+	font-weight: 700;
+	font-family: 'Montserrat', 'Helvetica Neue', Arial, serif;
+	letter-spacing: -0.03em;
 }
 .stats-2 .description{
 	font-size: 1.2rem;

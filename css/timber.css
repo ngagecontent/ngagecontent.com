@@ -3998,8 +3998,8 @@ pre code{
 	color: inherit;
 }
 .bkg-angled{background: url('../images/bg-strip.png')}
-.bkg-turquoise{background: #31b0b4; border-color: #31b0b4;}
-.bkg-hover-turquoise:hover{background: #008b73; border-color: #008b73;}
+.bkg-turquoise{background: #40b3b7; border-color: #40b3b7;}
+.bkg-hover-turquoise:hover{background: #40b3b7; border-color: #40b3b7;}
 .bkg-turquoise-light{background: #00bd9c; border-color: #00bd9c;}
 .bkg-hover-turquoise-light:hover{background: #00a186; border-color: #00a186;}
 .bkg-green{background: #1bb05d; border-color: #1bb05d;}
@@ -4040,7 +4040,7 @@ pre code{
 .bkg-hover-grey-light:hover{background-color: #888888; border-color: #888888;}
 .bkg-grey-ultralight{background-color: #f4f4f4; border-color: #f4f4f4;}
 .bkg-hover-grey-ultralight:hover{background-color: #f1f1f1; border-color: #f1f1f1;}
-.bkg-charcoal{background-color: #333333; border-color: #333333;}
+.bkg-charcoal{background-color: #222222; border-color: #222222;}
 .bkg-hover-charcoal:hover{background-color: #222222; border-color: #222222;}
 .bkg-charcoal-light{background-color: #555555; border-color: #555555;}
 .bkg-hover-charcoal-light:hover{background-color: #444444; border-color: #444444;}
@@ -4048,6 +4048,8 @@ pre code{
 .bkg-hover-black:hover{background-color: #000000; border-color: #000000;}
 .bkg-base{background: #eeeeee; border-color: #666666; border-color: #eeeeee;}
 .bkg-hover-base:hover{background: #d0d0d0; border-color: #666666; border-color: #eeeeee;}
+.bkg-cool-gray{background: #768d92; border-color: #768d92; border-color: #768d92;}
+.bkg-hover-cool-gray:hover{background: #768d92; border-color: #768d92; border-color: #768d92;}
 
 /* Social Networks Background Color Classes */
 .bkg-behance,

@@ -31,24 +31,24 @@ layout: default
   <!-- Content Section -->
   <div class="section-block bkg-grey-ultralight replicable-content">
     <div class="row medium">
-      <div class="column width-10">
-        <h2 class="weight-light text-uppercase">MARKETING DOESN’T HAVE TO BE HARD</h2>
+      <div class="column width-12">
+        <h2 class="text-uppercase text-center">MARKETING DOESN’T HAVE TO BE HARD</h2>
       </div>
       <div class="column width-12">
-        <p class="lead">Marketing seems tough in the digital age. You know you need to put an emphasis on driving qualified leads to your sales team. But how can you be an expert on the channels to use, let alone what messages you create? That’s where NgageContent comes in. Our performance-driven blueprint gives you the strategies, resources and technology to build and measure marketing efforts customized for you.</p>
+        <p class="lead text-center">Marketing seems tough in the digital age. You know you need to put an emphasis on driving qualified leads to your sales team. But how can you be an expert on the channels to use, let alone what messages you create? That’s where NgageContent comes in. Our performance-driven blueprint gives you the strategies, resources and technology to build and measure marketing efforts customized for you.</p>
       </div>
     </div>
   </div>
   <!-- Content Section End -->
 
   <!-- Hero Section 4 -->
-  <section class="section-block left hero-4 background-cover home-callout">
-    <div class="row">
+  <section class="section-block hero-4 background-cover home-callout">
+    <div class="row medium">
       <div class="column width-12">
         <div class="hero-content split-hero-content">
           <div class="hero-content-inner color-white">
-            <h2 class="weight-light text-uppercase">CONNECTING CONTENT TO YOUR SALES FUNNEL</h2>
-            <p>Bottom line results come from an engaged sales funnel. Done correctly, marketing blends into your sales process to help you close more leads faster. At NgageContent, we do the research work to get a full understanding of your buyer audience and then create content that takes them from their first interaction with you all the way through their buyer journey, enhancing and complementing your existing outbound sales process.</p>
+            <h2 class="text-center text-uppercase">CONNECTING CONTENT TO YOUR SALES FUNNEL</h2>
+            <p class="text-center">Bottom line results come from an engaged sales funnel. Done correctly, marketing blends into your sales process to help you close more leads faster. At NgageContent, we do the research work to get a full understanding of your buyer audience and then create content that takes them from their first interaction with you all the way through their buyer journey, enhancing and complementing your existing outbound sales process.</p>
           </div>
           </div>
         </div>
@@ -60,11 +60,11 @@ layout: default
   <!-- What We Do Section 3 -->
   <section class="section-block">
     <div class="row medium">
-      <div class="column width-10">
-        <h2 class="weight-light text-uppercase">ENGAGE, EDUCATE AND CONVERT</h2>
+      <div class="column width-12">
+        <h2 class="text-center text-uppercase">ENGAGE, EDUCATE AND CONVERT</h2>
       </div>
       <div class="column width-12">
-        <p class="lead">We study your audience and your market opportunities so we can devise content strategies that take a full-funnel approach to marketing, building awareness at the top of the funnel, generating interested leads and helping them make a decision in the middle, and increasing conversions at the bottom. We focus on telling them stories that solve their problem and pointing them toward your solutions.</p>
+        <p class="lead text-center">We study your audience and your market opportunities so we can devise content strategies that take a full-funnel approach to marketing, building awareness at the top of the funnel, generating interested leads and helping them make a decision in the middle, and increasing conversions at the bottom. We focus on telling them stories that solve their problem and pointing them toward your solutions.</p>
       </div>
     </div>
     <div class="row">
@@ -97,52 +97,101 @@ layout: default
   <!-- What We Do Section 3 End -->
 
   <!-- Content Section -->
-  <div class="section-block bkg-grey-ultralight replicable-content">
+  <div class="section-block bkg-cool-gray replicable-content">
     <div class="row medium">
-      <div class="column width-10">
-        <h2 class="weight-light text-uppercase">BOTTOM LINE RESULTS</h2>
-      </div>
       <div class="column width-12">
-        <p class="lead">By understanding the behaviors, triggers and pain points of your audience, we drive better leads at a lower cost. Our blueprint helps you see clearly measured analytics tied to the campaigns we create. This is how you make modern marketing easy and have the results to show for it.</p>
+        <h2 class="text-center text-uppercase color-white">BOTTOM LINE RESULTS</h2>
+      </div>
+      <div class="column width-12 color-white ">
+        <p class="lead text-center">By understanding the behaviors, triggers and pain points of your audience, we drive better leads at a lower cost. Our blueprint helps you see clearly measured analytics tied to the campaigns we create. This is how you make modern marketing easy and have the results to show for it.</p>
       </div>
     </div>
   </div>
   <!-- Content Section End -->
 
-  <!-- Stat Section 2 -->
-        <!-- <div class="section-block bkg-angled stats-2">
+  <!-- Blog Section-->
+  <section class="section-block">
+    <div class="row medium">
+      <div class="column width-12">
+        <h2 class="text-center text-uppercase">RECENT BLOG POSTS</h2>
+      </div>
+    </div>
+    <div class="row">
+        {% for post in site.posts limit:3 %}
+        <div class="column width-4">
+        <article class="post">
+      		<div class="post-media">
+      			<div class="thumbnail overlay-slide-in-left" data-hover-easing="swing">
+      				<a class="overlay-link" href="{{ post.url }}">
+      					<img src="{{ post.image }}" alt=""/>
+      					<span class="overlay-info">
+      						<span>
+      							<span>
+      								<span class="project-title">VIEW POST</span><br>
+      							</span>
+      						</span>
+      					</span>
+      				</a>
+      			</div>
+      		</div>
+      		<div class="post-content with-background">
+      			<h2 class="post-title text-uppercase"><a href="{{ post.url }}">{{post.title}}</a></h2>
+      			<p class="post-teaser">{{ post.teaser | truncatewords:15  }}</p>
+      			<div class="post-read-more">
+      				<a href="{{ post.url }}" class="button bkg-charcoal bkg-hover-charcoal color-white color-hover-white read-more">Read Post</a>
+      			</div>
+      		</div>
+      	</article>
+        </div>
+				{% endfor %}
+    </div>
+  </section>
+  <!-- Blog SectionEnd -->
+
+  <!-- Stat Section -->
+        <div class="section-block bkg-turquoise stats-2">
+          <div class="row medium">
+            <div class="column width-10 push-1">
+              <h2 class="text-uppercase text-center color-white">WHY INBOUND MARKETING?</h2>
+            </div>
+          </div>
           <div class="row">
             <div class="column width-12">
               <div class="row content-grid-3 equalize stats">
                 <div class="grid-item">
                   <div class="stat">
                     <div class="stat-inner">
-                      <p class="counter"><span class="stat-counter" data-count-from="1" data-count-to="54">54</span>%</p>
-                      <p class="description">More leads delivered to the marketing funnel with inbound marketing</p>
+                      <p class="counter color-white"><span class="stat-counter" data-count-from="1" data-count-to="54">54</span>%</p>
+                      <p class="description color-white">More leads delivered to the marketing funnel with inbound marketing</p>
                     </div>
                   </div>
                 </div>
                 <div class="grid-item">
                   <div class="stat">
                     <div class="stat-inner">
-                      <p class="counter"><span class="stat-counter" data-count-from="1" data-count-to="62">62</span>%</p>
-                      <p class="description">More leads generated by B2B companies that actively blog over those who don't</p>
+                      <p class="counter color-white"><span class="stat-counter" data-count-from="1" data-count-to="62">62</span>%</p>
+                      <p class="description color-white">More leads generated by B2B companies that actively blog over those who don't</p>
                     </div>
                   </div>
                 </div>
                 <div class="grid-item">
                   <div class="stat">
                     <div class="stat-inner">
-                      <p class="counter"><span class="stat-counter" data-count-from="1" data-count-to="67">67</span>%</p>
-                      <p class="description">Less cost per lead for inbound marketing over traditional marketing</p>
+                      <p class="counter color-white"><span class="stat-counter" data-count-from="1" data-count-to="67">67</span>%</p>
+                      <p class="description color-white">Less cost per lead for inbound marketing over traditional marketing</p>
                     </div>
                   </div>
                 </div>
             </div>
           </div>
         </div>
-      </div> -->
-    <!-- Stat Section 2 End -->
+        <div class="row medium">
+          <div class="column width-10 push-1">
+            <p class="source color-white">Source: Content Marketing Institute</ap>
+          </div>
+        </div>
+      </div>
+    <!-- Stat Section End -->
 
     {% include customer-logos.html %}
 
