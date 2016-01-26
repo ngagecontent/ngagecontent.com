@@ -32,15 +32,15 @@ One of the hardest things to remember when involving new team members is that th
 
 This goes with the previous point. When you give a new team member an idea of what you're looking for, tell them who they are talking to. If industry jargon will go over your reader's head, ask them to avoid it or explain it to you so you can simplify it.
 
-We deal with this when we share our weekly release notes with users at [Beegit](https://beegit.com). What our development team does is really fascinating, powerful stuff. It can also read like Tweets in Greek, so we have them spell things out.
+We deal with this when we share our weekly release notes with users at <a href="https://beegit.com" target="_blank">Beegit</a>. What our development team does is really fascinating, powerful stuff. It can also read like Tweets in Greek, so we have them spell things out.
 
 Here's how an early update was described on our Dev team's Trello board:
 
-	Browse full commit UI
+> Browse full commit UI
 
 Here's how we ended up explaining that to our users:
 
-	You can now see a quick overview of all the files that were updated across your entire project. You can also dive into an individual file to see the changes in context.
+> You can now see a quick overview of all the files that were updated across your entire project. You can also dive into an individual file to see the changes in context.
 
 ### 3. Ask leading questions
 
@@ -56,7 +56,7 @@ Most people who don't write will turn in a draft that really calls to mind the w
 
 ### 5. Keep the project on track by writing together in the cloud
 
-Nothing is more frustrating for you and your new content source than getting near deadline and realizing the copy you have is all wrong. Don't let your content get off track. Have your team member write in a shared cloud editor so you can see what they're working on. (I humbly suggest you sign up for [Beegit's](https://beegit.com) closed beta to help with this.) You don't need to hover over them, but check in on a few versions and make sure they are on track.
+Nothing is more frustrating for you and your new content source than getting near deadline and realizing the copy you have is all wrong. Don't let your content get off track. Have your team member write in a shared cloud editor so you can see what they're working on. (I suggest you sign up for <a href="https://beegit.com" target="_blank">Beegit</a> to help with this.) You don't need to hover over them, but check in on a few versions and make sure they are on track.
 
 ### 6. Encourage the right writing
 
@@ -74,4 +74,4 @@ In the years since, the stylebooks have changed and I went from writing daily to
 
 Let new content creators focus on crafting their story in peace. If they're going to write for you often, cheerfully give them a few style basics that will keep you sane (I politely ask anyone who writes for me often to use toward instead of towards).
 
-Those are a few tricks that have worked for me. How do you get the best content from others on your team? Tweet us at @[ProjectBeegit](https://twitter.com/ProjectBeegit) or find me at the links below to share your ideas.
+Those are a few tricks that have worked for me. How do you get the best content from others on your team? Tweet us at @[NgageContent](https://twitter.com/NgageContent) to share your ideas.
