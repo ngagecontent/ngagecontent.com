@@ -2,7 +2,7 @@
 
 layout: post
 title: 7 key benefits of blogging
-keyword: benefits of blogging
+keyword: the benefits of blogging
 date: 2016-02-02 7:00:00
 teaser: From a costs vs. rewards standpoint, the advantages of blogging are as clear as a Key West sunset.
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/7-key-benefits-of-blogging.jpg
