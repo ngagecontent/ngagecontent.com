@@ -1463,38 +1463,33 @@ pre {
     visibility: visible;
 }
 
-div.event-box {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-}
-
-div.event-box:hover {
-    cursor: hand;
-    cursor: pointer;
-}
-
-a.event-link {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    text-decoration: none;
-    /* Makes sure the link doesn't get underlined */
-    z-index: 10;
-    /* raises anchor tag above everything else in div */
-    background-color: white;
-    /*workaround to make clickable in IE */
-    opacity: 0;
-    /*workaround to make clickable in IE */
-    filter: alpha(opacity=0);
-    /*workaround to make clickable in IE */
-}
 
 @media only screen and (max-width: 768px){
 	.section-block.related-posts-footer {
     display: none;
   }
+}
+
+/* Event Styles */
+/* ----------------------------------------------------------*/
+
+
+.event-box h4 {
+	font-weight: 400;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+.event-box h5 {
+	display: inline;
+	padding: .2em .6em .3em;
+	font-size: 82%;
+	font-weight: 700;
+	line-height: 5em;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .15em;
+	background-color: #aaa;
 }
