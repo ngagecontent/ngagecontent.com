@@ -4,7 +4,7 @@ layout: post
 title: Addition by subtraction&#58; when deleting half of your blog is smart
 keyword: optimizing your blog
 date: 2015-11-02 12:00:00
-teaser: Erasing content can be a necessary evil pitted against the prideful content marketer within you
+teaser: Erasing content can be a necessary evil pitted against the prideful content marketer within you.
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/when_deleting_half_your_blog_is_smart.jpg
 author: matt_bixenstine
 comments: true

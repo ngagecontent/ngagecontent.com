@@ -4,7 +4,7 @@ layout: post
 title:  A 7-step guide on how to blog for business
 keyword: how to blog for business
 date: 2016-01-19 12:00:00
-teaser: With an effective strategy, your business blog will serve as an asset for your brand
+teaser: With an effective strategy, your business blog will serve as an asset for your brand.
 image: https://s3-us-west-2.amazonaws.com/ngage-website-images/blog/post-images/how-to-blog-for-business.jpg
 author: matt_bixenstine
 comments: true
