@@ -50,7 +50,12 @@ layout: default
 				</div>
 			</article>
 			{% include social-share.html%}
-			{% include signup-block.html %}
+
+			{% if page.offer == blog-pre-email %}
+				{% include signup-block.html %}
+				{% else %}
+				{% include blog-pre-email.html %}
+			{% endif %}
 
 
 			<!-- Post Author -->
@@ -90,6 +95,7 @@ layout: default
 					{% include related-posts-sidebar.html %}
 		</aside>
 	</div>
+
 	{% include related-posts-footer.html %}
 
 <script type="text/javascript">
